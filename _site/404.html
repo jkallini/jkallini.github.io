@@ -4,7 +4,7 @@
     <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Julie Kallini</title>
+<title>404</title>
 <meta name="description" content="Follow all my latest projects and adventures">
 
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
@@ -73,22 +73,23 @@
 
     <div class="page-content">
       <div class="wrap">
-      <div class="container-fluid index">
-    <div class="row">
+      <div class="container-fluid index error">
+  <div class="row">
 
-        <div class="col-md-12 main content-panel">
+    <div class="col-md-12 content-panel articles">
+      <h1 class="header author-header">404</h1>
 
-            <div class="gravatar">
-                <img src="profile_photo.png" class="img-circle about-image" height="150" width="150" alt="Julie Kallini" />
-            </div>
+      <div class="error-text">
+        Sorry but this page doesn't seem to exist.
+      </div>
 
-            <h1 class="header author-header" itemprop="headline">Julie Kallini</h1>
+      <div class="error-text">
+        <a href="/">Home</a> |
+        <a href="/posts/">All Posts</a> |
+        <a href="/search/">Search</a>
+      </div>
 
-            <div class="author-text">
-                Follow all my latest projects and adventures
-            </div>
-
-            <p class="links">
+      <p class="links">
   
   <a href="https://www.linkedin.com/in/julie-kallini-4baa85188/" target="_new"><i class="fa fa-linkedin"></i></a>
   
@@ -101,32 +102,28 @@
   <a href="/feed.xml" target="_new"><i class="fa fa-rss"></i></a>
 </p>
 
-          </div>
-          <div class="col-md-12 main content-panel">
-
-            <div class="articles">
-
-              <h2>Latest Articles</h2>
-
-              <ul>
-                  
-
-                      <li>
-                          <a href="/blog/2019/08/15/welcome-to-carte-noir/">My First Blog Post</a>
-                          <small class="hidden-xs">August 15, 2019</small>
-                      </li>
-
-                  
-                  <li>
-                      <small><i><a href="/posts/">more...</a></i></small>
-                  </li>
-              </ul>
-
-            </div>
-
-        </div>
 
     </div>
+
+  </div>
+
+  <div class="content-panel related">
+    
+      <div class="related-header">
+        <a href="/blog/2019/08/15/welcome-to-carte-noir/">Suggested Article</a>
+      </div>
+      <div class="title">
+        <a href="/blog/2019/08/15/welcome-to-carte-noir/">My First Blog Post</a>
+      </div>
+      <div class="excerpt">
+         
+          Welcome to my personal website!
+         
+        <a href="/blog/2019/08/15/welcome-to-carte-noir/">Continue Reading</a>
+      </div>
+    
+  </div>
+
 </div>
 
       </div>
@@ -158,48 +155,6 @@
    });
 </script>
 
-
-<script type="text/javascript">
-
-  function setFontSize() {
-
-    var title, dateOfTitle, fontSizeOfTitle, listOfA, listOfSmall, listOfArticlesDiv, divWidth;
-
-    listOfArticlesDiv = document.getElementsByClassName("articles");
-
-    for (i = 0; i < listOfArticlesDiv.length; i++) {
-
-      listOfA = document.getElementsByClassName("articles")[i].getElementsByTagName("a");
-      listOfSmall = document.getElementsByClassName("articles")[i].getElementsByTagName("small");
-
-      divWidth = document.getElementsByClassName("articles")[i].offsetWidth;
-
-      for (k = 0; k < listOfSmall.length; k++) {
-
-        title = $(listOfA[k]);
-        dateOfTitle = $(listOfSmall[k]);
-
-        fontSizeOfTitle = startingFontSize;
-        title.css("font-size", fontSizeOfTitle);
-
-        while (title.width() + dateOfTitle.width() >= divWidth)
-          title.css("font-size", fontSizeOfTitle -= 0.5);
-
-      }
-    }
-  }
-
-  function getStartFontSize() {
-    try {
-      startingFontSize = parseInt($(document.getElementsByClassName("articles")[0].getElementsByTagName("a")[0]).css("font-size"));
-      setFontSize();
-      window.addEventListener('resize', setFontSize, true);
-    } catch (e) {}
-  }
-
-  $(document).ready(getStartFontSize);
-
-</script>
 
 
 

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Julie Kallini</title>
+    <description>Follow all my latest projects and adventures</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 15 Aug 2019 23:09:43 -0700</pubDate>
+    <lastBuildDate>Thu, 15 Aug 2019 23:09:43 -0700</lastBuildDate>
+    <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>My First Blog Post</title>
+        <description>&lt;p&gt;Welcome to my first professional website!&lt;/p&gt;
+
+&lt;p&gt;I was gifted the ownership of my own domain name as a going away present from my amazing Facebook managers &lt;a href=&quot;https://www.linkedin.com/in/huntermonk/&quot;&gt;Hunter Monk&lt;/a&gt; and &lt;a href=&quot;https://www.linkedin.com/in/seong-wan-song-a08b5645/&quot;&gt;Seong Wan Song&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I’m learning to use Jekyll to get my site up and running, so stay tuned for updates!&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 15 Aug 2019 08:31:19 -0700</pubDate>
+        <link>http://localhost:4000/blog/2019/08/15/welcome-to-carte-noir/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/08/15/welcome-to-carte-noir/</guid>
+        
+        <category>first</category>
+        
+        <category>blog</category>
+        
+        <category>post</category>
+        
+        <category>personal</category>
+        
+        <category>website</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+  </channel>
+</rss>

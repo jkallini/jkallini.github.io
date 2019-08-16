@@ -1,0 +1,38 @@
+# Site settings
+title: "Julie Kallini"
+email: jkallini@princeton.edu
+description: "Follow all my latest projects and adventures"
+baseurl: ""
+url: "juliekallini.com"
+title_description: "Follow all my latest projects and adventures"
+title_image: "profile_photo.png"
+google_analytics: 
+disqus_account: 
+github_repository: https://github.com/jkallini/jkallini.github.io
+addthis_id:
+post_limit:
+
+# Social usernames/URLs
+twitter_username:
+github_username: jkallini
+instagram_username: juliekallini
+reddit_username: 
+linkedin_link: https://www.linkedin.com/in/julie-kallini-4baa85188/
+google_plus_link:
+stackoverflow_link:
+xing_link:
+facebook_link: https://www.facebook.com/julie.kallini
+
+# Footer
+footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
+footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: pretty
+exclude: [vendor]

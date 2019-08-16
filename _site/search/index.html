@@ -74,60 +74,35 @@
     <div class="page-content">
       <div class="wrap">
       <div class="container-fluid index">
-    <div class="row">
+  <div class="row index all-posts">
 
-        <div class="col-md-12 main content-panel">
+    <h1 class="header author-header">Search</h1>
 
-            <div class="gravatar">
-                <img src="profile_photo.png" class="img-circle about-image" height="150" width="150" alt="Julie Kallini" />
-            </div>
-
-            <h1 class="header author-header" itemprop="headline">Julie Kallini</h1>
-
-            <div class="author-text">
-                Follow all my latest projects and adventures
-            </div>
-
-            <p class="links">
-  
-  <a href="https://www.linkedin.com/in/julie-kallini-4baa85188/" target="_new"><i class="fa fa-linkedin"></i></a>
-  
-  
-  <a href="https://www.facebook.com/julie.kallini" target="_new"><i class="fa fa-facebook"></i></a>
-  <a href="https://github.com/jkallini" target="_new"><i class="fa fa-github-alt"></i></a>
-  
-  <a href="https://www.instagram.com/juliekallini" target="_new"><i class="fa fa-instagram"></i></a>
-  
-  <a href="/feed.xml" target="_new"><i class="fa fa-rss"></i></a>
-</p>
-
-          </div>
-          <div class="col-md-12 main content-panel">
-
-            <div class="articles">
-
-              <h2>Latest Articles</h2>
-
-              <ul>
-                  
-
-                      <li>
-                          <a href="/blog/2019/08/15/welcome-to-carte-noir/">My First Blog Post</a>
-                          <small class="hidden-xs">August 15, 2019</small>
-                      </li>
-
-                  
-                  <li>
-                      <small><i><a href="/posts/">more...</a></i></small>
-                  </li>
-              </ul>
-
-            </div>
-
-        </div>
-
+    <div id="search-container">
+      <input type="text" id="search-input" placeholder="Type here...">
+      <div class="col-md-12 content-panel articles">
+        <ul id="results-container"><small>Start typing to see some results</small></ul>
+      </div>
     </div>
+
+  </div>
 </div>
+
+<hr class="search-hr" />
+
+<script src="/js/jekyll-search.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+  SimpleJekyllSearch.init({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    dataSource: '/search.json',
+    searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}<\/a><\/li>',
+    noResultsText: 'No results found',
+    limit: 10,
+    fuzzy: true,
+  })
+</script>
 
       </div>
     </div>
@@ -158,48 +133,6 @@
    });
 </script>
 
-
-<script type="text/javascript">
-
-  function setFontSize() {
-
-    var title, dateOfTitle, fontSizeOfTitle, listOfA, listOfSmall, listOfArticlesDiv, divWidth;
-
-    listOfArticlesDiv = document.getElementsByClassName("articles");
-
-    for (i = 0; i < listOfArticlesDiv.length; i++) {
-
-      listOfA = document.getElementsByClassName("articles")[i].getElementsByTagName("a");
-      listOfSmall = document.getElementsByClassName("articles")[i].getElementsByTagName("small");
-
-      divWidth = document.getElementsByClassName("articles")[i].offsetWidth;
-
-      for (k = 0; k < listOfSmall.length; k++) {
-
-        title = $(listOfA[k]);
-        dateOfTitle = $(listOfSmall[k]);
-
-        fontSizeOfTitle = startingFontSize;
-        title.css("font-size", fontSizeOfTitle);
-
-        while (title.width() + dateOfTitle.width() >= divWidth)
-          title.css("font-size", fontSizeOfTitle -= 0.5);
-
-      }
-    }
-  }
-
-  function getStartFontSize() {
-    try {
-      startingFontSize = parseInt($(document.getElementsByClassName("articles")[0].getElementsByTagName("a")[0]).css("font-size"));
-      setFontSize();
-      window.addEventListener('resize', setFontSize, true);
-    } catch (e) {}
-  }
-
-  $(document).ready(getStartFontSize);
-
-</script>
 
 
 
