@@ -20,5 +20,7 @@ I was gifted the ownership of my own domain name as a going away present from my
 
 I'm learning to use Jekyll to get my site up and running, so stay tuned for updates!
 
+<img src="../../../../../about_photo.png">
+
 [1]: https://www.linkedin.com/in/huntermonk/
 [2]: https://www.linkedin.com/in/seong-wan-song-a08b5645/

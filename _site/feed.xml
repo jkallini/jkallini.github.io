@@ -5,8 +5,8 @@
     <description>This is the official website of Julie Kallini.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 16 Aug 2019 19:04:16 -0700</pubDate>
-    <lastBuildDate>Fri, 16 Aug 2019 19:04:16 -0700</lastBuildDate>
+    <pubDate>Fri, 16 Aug 2019 20:23:47 -0700</pubDate>
+    <lastBuildDate>Fri, 16 Aug 2019 20:23:47 -0700</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -17,10 +17,12 @@
 
 &lt;p&gt;I’m learning to use Jekyll to get my site up and running, so stay tuned for updates!&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;../../../../../about_photo.png&quot; /&gt;&lt;/p&gt;
+
 </description>
         <pubDate>Thu, 15 Aug 2019 08:31:19 -0700</pubDate>
-        <link>http://localhost:4000/blog/2019/08/15/welcome-to-carte-noir/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/08/15/welcome-to-carte-noir/</guid>
+        <link>http://localhost:4000/blog/2019/08/15/my-first-blog-post/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/08/15/my-first-blog-post/</guid>
         
         <category>first</category>
         
