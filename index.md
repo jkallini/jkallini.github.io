@@ -28,11 +28,13 @@ make-smaller-titles: true
 
                   <h2>About Me</h2>
 
-                  <div class="author-text">
-                      {{ site.about }}
-                  </div>
-
               </div>
+
+              <p markdown="1">
+              
+              <img src="about_photo.png" width="40%" align="right">
+                More info coming soon!
+              </p>
 
           </div>
 
