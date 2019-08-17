@@ -19,12 +19,9 @@ make-smaller-titles: true
             <div class="articles">
                 <h2>About Me</h2>
             </div>
-            <span itemprop="articleBody">
-                <p markdown="1">
-                    More info coming soon!!!
-                </p>
-                <p><img src="about_photo.png"></p>
-            </span>
+            <p markdown="1">
+            {% include about.md %}
+              </p>
         </div>
         <div class="col-md-12 main content-panel">
             <div class="articles">
