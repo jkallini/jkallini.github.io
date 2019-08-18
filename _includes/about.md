@@ -1,4 +1,3 @@
-<img src="about_photo.png" width="40%" align="right">
-More info **soon!**
-<br />
-Look out!
+<img src="about.png" width="100%"
+style="margin-bottom: 10px">
+More info coming **soon**!

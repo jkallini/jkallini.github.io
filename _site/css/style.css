@@ -19,18 +19,18 @@ body {
   width: 100%; }
 
 a, a:active {
-  color: #3CA2A2;
+  color: #E592E0;
   text-decoration: none; }
 
 a:hover {
-  color: #215A6D;
+  color: #952C8F;
   text-decoration: none; }
 
 ul {
   list-style-type: none; }
 
 .navbar, .nav {
-  background-color: #215A6D; }
+  background-color: #952C8F; }
   .navbar .navbar-toggle, .nav .navbar-toggle {
     margin-top: 10px;
     padding-top: 0px;
@@ -38,7 +38,7 @@ ul {
   .navbar li a, .navbar li a:active, .nav li a, .nav li a:active {
     color: #FFFFFF; }
   .navbar li a:hover, .nav li a:hover {
-    color: #215A6D;
+    color: #952C8F;
     text-decoration: none; }
 
 .clearfix:after {
@@ -83,14 +83,14 @@ ul {
   padding-right: 30px;
   margin-top: 20px;
   box-shadow: 0px 0px 0px 0px, 0px 6px 12px rgba(0, 0, 0, 0.2);
-  border-bottom: 5px solid #3CA2A2; }
+  border-bottom: 5px solid #E592E0; }
 
 #my-menu p {
   margin-bottom: 5px; }
 #my-menu a, #my-menu a:active {
   color: #FFFFFF; }
 #my-menu a:hover {
-  color: #3CA2A2; }
+  color: #E592E0; }
 #my-menu .pages .fa {
   margin-right: 10px; }
 
@@ -152,10 +152,10 @@ ul {
   .index .categories {
     font-size: 22px; }
   .index .content-panel:nth-of-type(1) {
-    border-bottom: 10px solid #3CA2A2; }
+    border-bottom: 10px solid #E592E0; }
   .index .author-header {
     font-family: 'Montserrat', sans-serif;
-    color: #3CA2A2;
+    color: #E592E0;
     margin-top: 0px;
     padding-top: 15px;
     font-size: 30px; }
@@ -189,7 +189,7 @@ ul {
     font-size: 20px; }
     .index .articles h2 {
       margin-bottom: 30px;
-      color: #3CA2A2;
+      color: #E592E0;
       font-size: 26px; }
     .index .articles ul {
       padding: 0px; }
@@ -209,7 +209,7 @@ ul {
       color: #FFFFFF;
       white-space: nowrap; }
     .index .articles a:hover {
-      color: #3CA2A2; }
+      color: #E592E0; }
   .index .copyright {
     margin-top: 50px;
     text-align: center; }
@@ -224,7 +224,7 @@ ul {
     .index .menu a, .index .menu a:active {
       color: #FFFFFF; }
     .index .menu a:hover {
-      color: #3CA2A2; }
+      color: #E592E0; }
     .index .menu ul {
       margin-bottom: 30px;
       padding-left: 10px; }
@@ -285,11 +285,11 @@ ul {
       .single p {
         margin-bottom: 40px; } }
   .single .menu {
-    background-color: #215A6D; }
+    background-color: #952C8F; }
     .single .menu a, .single .menu a:active {
       color: #FFFFFF; }
     .single .menu a:hover {
-      color: #3CA2A2; }
+      color: #E592E0; }
     .single .menu h4 {
       margin-top: 20px; }
     .single .menu .share {
@@ -445,7 +445,7 @@ ul {
         .single .article .content .tags a, .single .article .content .tags a:active {
           color: #FFFFFF; }
         .single .article .content .tags a:hover {
-          color: #3CA2A2; }
+          color: #E592E0; }
       .single .article .content .share {
         margin-top: 20px;
         margin-bottom: 10px;
@@ -469,7 +469,7 @@ ul {
       background-color: #21211E;
       box-shadow: 0px 0px 0px 0px, 0px 6px 12px rgba(0, 0, 0, 0.2); }
     .related .related-header a:hover {
-      color: #215A6D; }
+      color: #952C8F; }
   .related .title {
     padding-top: 20px;
     font-size: 24px;
@@ -505,7 +505,7 @@ ul {
 .error .error-text {
   margin-top: 30px; }
   .error .error-text a {
-    color: #3CA2A2; }
+    color: #E592E0; }
 .error .links {
   font-size: 1em; }
 
@@ -533,30 +533,30 @@ ul {
     margin-bottom: 20px; }
 
 .btn-categories {
-  background-color: #3CA2A2;
-  border-color: #3CA2A2;
+  background-color: #E592E0;
+  border-color: #E592E0;
   color: #FFFFFF; }
   .btn-categories:hover {
-    background-color: #215A6D;
-    border-color: #215A6D;
+    background-color: #952C8F;
+    border-color: #952C8F;
     color: #FFFFFF; }
   .btn-categories:active {
-    background-color: #215A6D;
-    border-color: #215A6D;
+    background-color: #952C8F;
+    border-color: #952C8F;
     color: #FFFFFF; }
   .btn-categories:focus {
-    background-color: #215A6D;
-    border-color: #215A6D;
+    background-color: #952C8F;
+    border-color: #952C8F;
     color: #FFFFFF; }
 
 .dropdown-menu {
-  background-color: #3CA2A2;
+  background-color: #E592E0;
   color: #FFFFFF; }
   .dropdown-menu > li > a {
-    background-color: #3CA2A2;
+    background-color: #E592E0;
     color: #FFFFFF; }
     .dropdown-menu > li > a:hover {
-      background-color: #215A6D;
+      background-color: #952C8F;
       color: #FFFFFF; }
 
 table {
@@ -571,4 +571,7 @@ th {
 
 td {
   padding: 2px;
-  border: 1px solid #215A6D; }
+  border: 1px solid #952C8F; }
+
+img {
+  border-radius: 15px; }
