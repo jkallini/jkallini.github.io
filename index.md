@@ -21,7 +21,7 @@ make-smaller-titles: true
             </div>
             <p markdown="1">
             {% include about.md %}
-              </p>
+            </p>
         </div>
         <div class="col-md-12 main content-panel">
             <div class="articles">
