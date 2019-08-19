@@ -1,9 +1,17 @@
 [
   
   {
+    "title"    : "Owning 7 Phones at Once",
+    "category" : "",
+    "tags"     : "phones, devices, website",
+    "url"      : "/website/2019/08/19/owning-7-phones-at-once/",
+    "date"     : "2019-08-19 05:29:19 -0700"
+    } ,
+    
+  {
     "title"    : "My First Blog Post",
     "category" : "",
-    "tags"     : "first, blog, post, personal, website",
+    "tags"     : "first, blog, post, website",
     "url"      : "/blog/2019/08/15/my-first-blog-post/",
     "date"     : "2019-08-15 08:31:19 -0700"
     } 

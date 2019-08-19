@@ -23,7 +23,7 @@ make-smaller-titles: true
             {% include about.md %}
             </p>
         </div>
-            <div class="col-md-12 main content-panel">
+        <div class="col-md-12 main content-panel">
             {% include education.html %}
         </div>
         <div class="col-md-12 main content-panel">

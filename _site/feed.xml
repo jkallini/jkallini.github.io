@@ -5,9 +5,62 @@
     <description>This is the official website of Julie Kallini.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 19 Aug 2019 10:31:46 -0700</pubDate>
-    <lastBuildDate>Mon, 19 Aug 2019 10:31:46 -0700</lastBuildDate>
+    <pubDate>Mon, 19 Aug 2019 14:05:05 -0700</pubDate>
+    <lastBuildDate>Mon, 19 Aug 2019 14:05:05 -0700</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Owning 7 Phones at Once</title>
+        <description>&lt;p&gt;No, I don’t &lt;em&gt;actually&lt;/em&gt; own 7 phones. But working on this website lead me to a
+discovery about how I could simulate having several devices at once.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jacobtomlinson/carte-noire&quot;&gt;Carte Noire&lt;/a&gt; is a beautiful theme,
+but, like most Jekyll themes, it is tailored to hosting blogs. Since I’m building
+my website mainly to host my resume and portfolio, I’ve been working directly with
+&lt;strong&gt;HTML&lt;/strong&gt; and &lt;strong&gt;CSS&lt;/strong&gt; to achieve the look I want, rather than simply using Markdown.&lt;/p&gt;
+
+&lt;h3 id=&quot;dealing-with-configuration-changes&quot;&gt;Dealing with Configuration Changes&lt;/h3&gt;
+
+&lt;p&gt;As I was editing the “About Me” section of my homepage, I wanted to ensure that my
+page was &lt;strong&gt;mobile friendly&lt;/strong&gt;, and that the images and text would be displayed nicely
+on mobile devices. At first, I had to push my changes in order to view the updated
+website on my phone. I noticed that my image would trail off of the &lt;strong&gt;&lt;em&gt;About Me&lt;/em&gt;&lt;/strong&gt; card:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../../screenshot1.jpeg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It was getting pretty troublesome trying to debug the mobile display without being
+able to test it before pushing. I dabbled with some solutions that involved running
+my Mac’s localhost on my iPhone, but it turns out that there’s an even better answer.&lt;/p&gt;
+
+&lt;h3 id=&quot;chrome-devtools&quot;&gt;Chrome DevTools&lt;/h3&gt;
+
+&lt;p&gt;This probably comes as no surprise for anyone who’s done some web development already,
+but &lt;strong&gt;Chrome DevTools&lt;/strong&gt; blew my mind when I started using it.
+Chrome DevTools allows you to view and interact with the HTML and CSS of basically
+any website. With a simple press of &lt;code class=&quot;highlighter-rouge&quot;&gt;F12&lt;/code&gt;, I’m taken to a new pane where I can view my
+website on a range of devices, not just an iPhone! Now I can easily diagnose layout
+issues on lower-resolution displays locally.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../../screenshot2.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So no, I don’t really own 7 phones, but I think this has been a worthwhile discovery
+for me anyway.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 19 Aug 2019 05:29:19 -0700</pubDate>
+        <link>http://localhost:4000/website/2019/08/19/owning-7-phones-at-once/</link>
+        <guid isPermaLink="true">http://localhost:4000/website/2019/08/19/owning-7-phones-at-once/</guid>
+        
+        <category>phones</category>
+        
+        <category>devices</category>
+        
+        <category>website</category>
+        
+        
+        <category>website</category>
+        
+      </item>
     
       <item>
         <title>My First Blog Post</title>
@@ -15,7 +68,7 @@
 
 &lt;p&gt;I was gifted the ownership of my own domain name as a going away present from my amazing Facebook managers &lt;a href=&quot;https://www.linkedin.com/in/huntermonk/&quot;&gt;Hunter Monk&lt;/a&gt; and &lt;a href=&quot;https://www.linkedin.com/in/seong-wan-song-a08b5645/&quot;&gt;Seong Wan Song&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;I’m learning to use Jekyll to get my site up and running, so stay tuned for updates!&lt;/p&gt;
+&lt;p&gt;I’m learning to use &lt;code class=&quot;highlighter-rouge&quot;&gt;Jekyll&lt;/code&gt; to get my site up and running, so stay tuned for updates!&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 15 Aug 2019 08:31:19 -0700</pubDate>
@@ -27,8 +80,6 @@
         <category>blog</category>
         
         <category>post</category>
-        
-        <category>personal</category>
         
         <category>website</category>
         
