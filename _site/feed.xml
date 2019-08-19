@@ -5,8 +5,8 @@
     <description>This is the official website of Julie Kallini.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 19 Aug 2019 14:05:05 -0700</pubDate>
-    <lastBuildDate>Mon, 19 Aug 2019 14:05:05 -0700</lastBuildDate>
+    <pubDate>Mon, 19 Aug 2019 14:48:08 -0700</pubDate>
+    <lastBuildDate>Mon, 19 Aug 2019 14:48:08 -0700</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -26,7 +26,7 @@ page was &lt;strong&gt;mobile friendly&lt;/strong&gt;, and that the images and t
 on mobile devices. At first, I had to push my changes in order to view the updated
 website on my phone. I noticed that my image would trail off of the &lt;strong&gt;&lt;em&gt;About Me&lt;/em&gt;&lt;/strong&gt; card:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../../../../screenshot1.jpeg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../../images/screenshot1.jpeg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;It was getting pretty troublesome trying to debug the mobile display without being
 able to test it before pushing. I dabbled with some solutions that involved running
@@ -41,7 +41,7 @@ any website. With a simple press of &lt;code class=&quot;highlighter-rouge&quot;
 website on a range of devices, not just an iPhone! Now I can easily diagnose layout
 issues on lower-resolution displays locally.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../../../../screenshot2.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../../images/screenshot2.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;So no, I don’t really own 7 phones, but I think this has been a worthwhile discovery
 for me anyway.&lt;/p&gt;

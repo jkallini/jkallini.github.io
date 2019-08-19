@@ -27,7 +27,7 @@ page was **mobile friendly**, and that the images and text would be displayed ni
 on mobile devices. At first, I had to push my changes in order to view the updated
 website on my phone. I noticed that my image would trail off of the ***About Me*** card:
 
-<img src="../../../../../screenshot1.jpeg">
+<img src="../../../../../images/screenshot1.jpeg">
 
 It was getting pretty troublesome trying to debug the mobile display without being
 able to test it before pushing. I dabbled with some solutions that involved running
@@ -42,7 +42,7 @@ any website. With a simple press of `F12`, I'm taken to a new pane where I can v
 website on a range of devices, not just an iPhone! Now I can easily diagnose layout
 issues on lower-resolution displays locally.
 
-<img src="../../../../../screenshot2.png">
+<img src="../../../../../images/screenshot2.png">
 
 So no, I don't really own 7 phones, but I think this has been a worthwhile discovery
 for me anyway.
