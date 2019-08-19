@@ -1,5 +1,5 @@
 <img src="about.png" width="100%"
-style="margin-bottom: 10px">
+style="margin-bottom: 20px">
 I'm Julie, and I was born and raised in **Los Angeles**. Though California is my home, I'm currently enjoying the east coast as a third-year **Computer Science Engineering** student at **Princeton University**, where I discovered the seemingly boundless possibilities of programming.
 <br/>
 <br/>

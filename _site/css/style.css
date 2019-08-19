@@ -84,6 +84,9 @@ ul {
   margin-top: 20px;
   box-shadow: 0px 0px 0px 0px, 0px 6px 12px rgba(0, 0, 0, 0.2);
   border-bottom: 5px solid #E592E0; }
+  .content-panel h2 {
+    font-size: 24px;
+    margin-bottom: -20px; }
 
 #my-menu p {
   margin-bottom: 5px; }
@@ -150,7 +153,7 @@ ul {
         margin-left: -10%;
         width: 120%; } }
   .index .categories {
-    font-size: 22px; }
+    font-size: 24px; }
   .index .content-panel:nth-of-type(1) {
     border-bottom: 10px solid #E592E0; }
   .index .author-header {
@@ -190,7 +193,7 @@ ul {
     .index .articles h2 {
       margin-bottom: 30px;
       color: #E592E0;
-      font-size: 26px; }
+      font-size: 38px; }
     .index .articles ul {
       padding: 0px; }
       .index .articles ul li {
@@ -575,3 +578,12 @@ td {
 
 img {
   border-radius: 10px; }
+
+table.borderless {
+  border-width: 0px; }
+
+table.borderless th {
+  border-width: 0px; }
+
+table.borderless td {
+  border-width: 0px; }

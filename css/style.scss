@@ -136,6 +136,11 @@ ul {
 	margin-top: 20px;
 	box-shadow: 0px 0px 0px 0px, 0px 6px 12px rgba(0, 0, 0, 0.2);
 	border-bottom: 5px solid $light-pink;
+
+	h2 {
+		font-size: 24px;
+		margin-bottom: -20px;
+	}
 }
 
 #my-menu {
@@ -248,7 +253,7 @@ ul {
 	}
 
 	.categories {
-		font-size: 22px;
+		font-size: 24px;
 	}
 
 	.content-panel:nth-of-type(1) {
@@ -307,7 +312,7 @@ ul {
 		h2 {
 			margin-bottom: 30px;
 			color: $light-pink;
-			font-size: 26px;
+			font-size: 38px;
 		}
 
 		ul {
@@ -901,4 +906,16 @@ td{
 
 img {
 	border-radius: 10px;
-  }
+}
+
+table.borderless {
+	border-width: 0px;
+}
+
+table.borderless th {
+    border-width: 0px;
+}
+
+table.borderless td {
+    border-width: 0px;
+}
