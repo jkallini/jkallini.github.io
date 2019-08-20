@@ -5,8 +5,8 @@
     <description>This is the official website of Julie Kallini.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 19 Aug 2019 21:05:27 -0700</pubDate>
-    <lastBuildDate>Mon, 19 Aug 2019 21:05:27 -0700</lastBuildDate>
+    <pubDate>Mon, 19 Aug 2019 22:30:06 -0700</pubDate>
+    <lastBuildDate>Mon, 19 Aug 2019 22:30:06 -0700</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -21,10 +21,10 @@ my website mainly to host my resume and portfolio, I’ve been working directly 
 
 &lt;h3 id=&quot;dealing-with-configuration-changes&quot;&gt;Dealing with Configuration Changes&lt;/h3&gt;
 
-&lt;p&gt;As I was editing the “About Me” section of my homepage, I wanted to ensure that my
+&lt;p&gt;As I was editing the &lt;strong&gt;&lt;em&gt;About Me&lt;/em&gt;&lt;/strong&gt; section of my homepage, I wanted to ensure that my
 page was &lt;strong&gt;mobile friendly&lt;/strong&gt;, and that the images and text would be displayed nicely
 on mobile devices. At first, I had to push my changes in order to view the updated
-website on my phone. I noticed that my image would trail off of the &lt;strong&gt;&lt;em&gt;About Me&lt;/em&gt;&lt;/strong&gt; card:&lt;/p&gt;
+website on my phone. I noticed that my image would trail off of the “About Me” card:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../../../../../images/screenshot1.jpeg&quot; /&gt;&lt;/p&gt;
 

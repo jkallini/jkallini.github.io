@@ -22,10 +22,10 @@ my website mainly to host my resume and portfolio, I've been working directly wi
 
 ### Dealing with Configuration Changes
 
-As I was editing the "About Me" section of my homepage, I wanted to ensure that my
+As I was editing the ***About Me*** section of my homepage, I wanted to ensure that my
 page was **mobile friendly**, and that the images and text would be displayed nicely
 on mobile devices. At first, I had to push my changes in order to view the updated
-website on my phone. I noticed that my image would trail off of the ***About Me*** card:
+website on my phone. I noticed that my image would trail off of the "About Me" card:
 
 <img src="../../../../../images/screenshot1.jpeg">
 
