@@ -14,6 +14,14 @@
     "tags"     : "first, blog, post, website",
     "url"      : "/blog/2019/08/15/my-first-blog-post/",
     "date"     : "2019-08-15 08:31:19 -0700"
+    } ,
+    
+  {
+    "title"    : "Maze Adventures",
+    "category" : "",
+    "tags"     : "projects, unity, SPE",
+    "url"      : "/projects/2018/07/20/maze-adventures/",
+    "date"     : "2018-07-20 11:48:27 -0700"
     } 
     
   ]
