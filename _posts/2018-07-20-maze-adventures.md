@@ -80,8 +80,7 @@ pellet. If you have a key, you can use it to unlock a room. Stand next to the do
 `return` to unlock the door. Once all rooms have been opened, navigate to the exit in the top-right corner
 of the maze.
 
-<img src='../../../../../images/walkthrough1.gif' title='Video Walkthrough' width=''
-style='border-radius:20px;' alt='Video Walkthrough'/>
+<iframe class="imgur-embed" width="100%" height="593" frameborder="0" src="https://i.imgur.com/QHsrhjC.gifv#embed"></iframe>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
