@@ -40,7 +40,7 @@ make-smaller-titles: true
                     </li>
                 {% endfor %}
                   <li>
-                      <small><i><a href="{{ site.baseurl }}/posts/">more...</a></i></small>
+                      <small><i><a href="{{ site.baseurl }}/posts-by-categories/">more...</a></i></small>
                   </li>
               </ul>
             </div>

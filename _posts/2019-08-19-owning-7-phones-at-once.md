@@ -4,10 +4,11 @@ title:      Owning 7 Phones at Once
 date:       2019-08-19 12:29:19
 author:     Julie Kallini
 summary:    How I tested configuration changes for my website
-categories: website
+categories: blog
 thumbnail:  mobile
 tags:
  - phones
+ - blog
  - devices
  - website
 ---

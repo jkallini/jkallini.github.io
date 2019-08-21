@@ -5,8 +5,8 @@
     <description>This is the official website of Julie Kallini.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 20 Aug 2019 19:19:42 -0700</pubDate>
-    <lastBuildDate>Tue, 20 Aug 2019 19:19:42 -0700</lastBuildDate>
+    <pubDate>Tue, 20 Aug 2019 20:28:11 -0700</pubDate>
+    <lastBuildDate>Tue, 20 Aug 2019 20:28:11 -0700</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -48,17 +48,19 @@ for me anyway.&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 19 Aug 2019 05:29:19 -0700</pubDate>
-        <link>http://localhost:4000/website/2019/08/19/owning-7-phones-at-once/</link>
-        <guid isPermaLink="true">http://localhost:4000/website/2019/08/19/owning-7-phones-at-once/</guid>
+        <link>http://localhost:4000/blog/2019/08/19/owning-7-phones-at-once/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/08/19/owning-7-phones-at-once/</guid>
         
         <category>phones</category>
+        
+        <category>blog</category>
         
         <category>devices</category>
         
         <category>website</category>
         
         
-        <category>website</category>
+        <category>blog</category>
         
       </item>
     
@@ -78,8 +80,6 @@ for me anyway.&lt;/p&gt;
         <category>first</category>
         
         <category>blog</category>
-        
-        <category>post</category>
         
         <category>website</category>
         
