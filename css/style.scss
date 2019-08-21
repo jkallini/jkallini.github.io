@@ -140,7 +140,6 @@ ul {
 	h2 {
 		font-family: 'Montserrat', sans-serif;
 		font-size: 26px;
-		margin-bottom: -20px;
 	}
 }
 
@@ -920,3 +919,9 @@ table.borderless th {
 table.borderless td {
     border-width: 0px;
 }
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }

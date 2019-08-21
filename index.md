@@ -30,6 +30,9 @@ make-smaller-titles: true
             {% include experience.html %}
         </div>
         <div class="col-md-12 main content-panel">
+            {% include projects.html %}
+        </div>
+        <div class="col-md-12 main content-panel">
             <div class="articles">
             <h2>Latest Articles</h2>
             <ul>

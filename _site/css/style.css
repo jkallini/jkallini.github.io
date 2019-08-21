@@ -86,8 +86,7 @@ ul {
   border-bottom: 5px solid #E592E0; }
   .content-panel h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 26px;
-    margin-bottom: -20px; }
+    font-size: 26px; }
 
 #my-menu p {
   margin-bottom: 5px; }
@@ -588,3 +587,8 @@ table.borderless th {
 
 table.borderless td {
   border-width: 0px; }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
