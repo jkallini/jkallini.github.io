@@ -25,7 +25,7 @@ View the project on [Github](https://github.com/jkallini/MazeAdventures), or pla
 [here](https://juliekallini.com/MazeAdventures/).
 
 ## About the Game
-<img src="https://github.com/jkallini/MazeAdventures/blob/master/Images/title.png" width="50%"
+<img src="../../../../../images/title.png" width="100%" style="border-radius:20px;"
 alt="Maze Adventures">
 
 In **Maze Adventures**, you play as a lonely pill trying to escape a dangerous maze.
@@ -77,59 +77,59 @@ the maze.
 
 Use `WASD` to move around. Your cursor indicates the direction you want to shoot. Left-click to shoot a
 pellet. If you have a key, you can use it to unlock a room. Stand next to the door of the room and press
-`enter` to unlock the door. Once all rooms have been opened, navigate to the exit in the top-right corner
+`return` to unlock the door. Once all rooms have been opened, navigate to the exit in the top-right corner
 of the maze.
 
-<img src='https://github.com/jkallini/MazeAdventures/blob/master/walkthrough1.gif' title='Video Walkthrough' width=''
-alt='Video Walkthrough' />
+<img src='../../../../../images/walkthrough1.gif' title='Video Walkthrough' width=''
+style='border-radius:20px;' alt='Video Walkthrough'/>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ### Player
 This is you!
 
-<img src="https://github.com/jkallini/MazeAdventures/blob/master/Images/player.png" width="60"
+<img src="../../../../../images/player.png" width="80"
 alt="Player">
 
 ### Key
 Collect these keys to unlock rooms!
 
-<img src="https://github.com/jkallini/MazeAdventures/blob/master/Images/key.png" width="80"
+<img src="../../../../../images/key.png" width="80"
 alt="Key">
 
 
 ### Room
 These are rooms where your fellow Pills are trapped!
 
-<img src="https://github.com/jkallini/MazeAdventures/blob/master/Images/room.png" width="200"
+<img src="../../../../../images/room.png" width="230"
 alt="Room">
 
 ### Bomb Glowy
 Bomb Glowies can follow you around. Don't let them touch you!
 They can also drop bombs when they get close to you!
 
-<img src="https://github.com/jkallini/MazeAdventures/blob/master/Images/red_enemy.png" width="60"
+<img src="../../../../../images/red_enemy.png" width="80"
 alt="Bomb Glowy">
 
 ### Bomb
 Bombs are dropped by Bomb Glowies. Bombs can break walls, which makes it easier to get
 through the maze. But don't be too close to the bombs when they explode!
 
-<img src="https://github.com/jkallini/MazeAdventures/blob/master/Images/bomb.png" width="40"
+<img src="../../../../../images/bomb.png" width="70"
 alt="Bomb">
 
 ### Fire Glowy
 Fire Glowies are stationary, but they can shoot fire balls at you! They also take
 twice as much damage as Bomb Glowies.
 
-<img src="https://github.com/jkallini/MazeAdventures/blob/master/Images/fire_enemy.png" width="120"
+<img src="../../../../../images/fire_enemy.png" width="150"
 alt="Fire Glowy">
 
 ### Heart
 Hearts replenish some of your health. You can find them by searching the maze,
 or by defeating Glowies.
 
-<img src="https://github.com/jkallini/MazeAdventures/blob/master/Images/heart.png" width="40"
+<img src="../../../../../images/heart.png" width="70"
 alt="Heart">
 
 ## Credits

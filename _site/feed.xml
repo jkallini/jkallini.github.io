@@ -5,8 +5,8 @@
     <description>This is the official website of Julie Kallini.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 20 Aug 2019 20:28:11 -0700</pubDate>
-    <lastBuildDate>Tue, 20 Aug 2019 20:28:11 -0700</lastBuildDate>
+    <pubDate>Tue, 20 Aug 2019 20:48:41 -0700</pubDate>
+    <lastBuildDate>Tue, 20 Aug 2019 20:48:41 -0700</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -103,7 +103,7 @@ generating and solving algorithms, and implemented simulations of these algorith
 &lt;a href=&quot;https://juliekallini.com/MazeAdventures/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;about-the-game&quot;&gt;About the Game&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://github.com/jkallini/MazeAdventures/blob/master/Images/title.png&quot; width=&quot;50%&quot; alt=&quot;Maze Adventures&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../../images/title.png&quot; width=&quot;100%&quot; style=&quot;border-radius:20px;&quot; alt=&quot;Maze Adventures&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In &lt;strong&gt;Maze Adventures&lt;/strong&gt;, you play as a lonely pill trying to escape a dangerous maze.
 Before the game starts, you are greeted by a menu screen that allows you to input the size of the
@@ -172,51 +172,51 @@ the maze.&lt;/p&gt;
 
 &lt;p&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;WASD&lt;/code&gt; to move around. Your cursor indicates the direction you want to shoot. Left-click to shoot a
 pellet. If you have a key, you can use it to unlock a room. Stand next to the door of the room and press
-&lt;code class=&quot;highlighter-rouge&quot;&gt;enter&lt;/code&gt; to unlock the door. Once all rooms have been opened, navigate to the exit in the top-right corner
+&lt;code class=&quot;highlighter-rouge&quot;&gt;return&lt;/code&gt; to unlock the door. Once all rooms have been opened, navigate to the exit in the top-right corner
 of the maze.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/jkallini/MazeAdventures/blob/master/walkthrough1.gif&quot; title=&quot;Video Walkthrough&quot; width=&quot;&quot; alt=&quot;Video Walkthrough&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../../images/walkthrough1.gif&quot; title=&quot;Video Walkthrough&quot; width=&quot;&quot; style=&quot;border-radius:20px;&quot; alt=&quot;Video Walkthrough&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;GIF created with &lt;a href=&quot;http://www.cockos.com/licecap/&quot;&gt;LiceCap&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;player&quot;&gt;Player&lt;/h3&gt;
 &lt;p&gt;This is you!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/jkallini/MazeAdventures/blob/master/Images/player.png&quot; width=&quot;60&quot; alt=&quot;Player&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../../images/player.png&quot; width=&quot;80&quot; alt=&quot;Player&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;key&quot;&gt;Key&lt;/h3&gt;
 &lt;p&gt;Collect these keys to unlock rooms!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/jkallini/MazeAdventures/blob/master/Images/key.png&quot; width=&quot;80&quot; alt=&quot;Key&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../../images/key.png&quot; width=&quot;80&quot; alt=&quot;Key&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;room&quot;&gt;Room&lt;/h3&gt;
 &lt;p&gt;These are rooms where your fellow Pills are trapped!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/jkallini/MazeAdventures/blob/master/Images/room.png&quot; width=&quot;200&quot; alt=&quot;Room&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../../images/room.png&quot; width=&quot;230&quot; alt=&quot;Room&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;bomb-glowy&quot;&gt;Bomb Glowy&lt;/h3&gt;
 &lt;p&gt;Bomb Glowies can follow you around. Don’t let them touch you!
 They can also drop bombs when they get close to you!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/jkallini/MazeAdventures/blob/master/Images/red_enemy.png&quot; width=&quot;60&quot; alt=&quot;Bomb Glowy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../../images/red_enemy.png&quot; width=&quot;80&quot; alt=&quot;Bomb Glowy&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;bomb&quot;&gt;Bomb&lt;/h3&gt;
 &lt;p&gt;Bombs are dropped by Bomb Glowies. Bombs can break walls, which makes it easier to get
 through the maze. But don’t be too close to the bombs when they explode!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/jkallini/MazeAdventures/blob/master/Images/bomb.png&quot; width=&quot;40&quot; alt=&quot;Bomb&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../../images/bomb.png&quot; width=&quot;70&quot; alt=&quot;Bomb&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;fire-glowy&quot;&gt;Fire Glowy&lt;/h3&gt;
 &lt;p&gt;Fire Glowies are stationary, but they can shoot fire balls at you! They also take
 twice as much damage as Bomb Glowies.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/jkallini/MazeAdventures/blob/master/Images/fire_enemy.png&quot; width=&quot;120&quot; alt=&quot;Fire Glowy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../../images/fire_enemy.png&quot; width=&quot;150&quot; alt=&quot;Fire Glowy&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;heart&quot;&gt;Heart&lt;/h3&gt;
 &lt;p&gt;Hearts replenish some of your health. You can find them by searching the maze,
 or by defeating Glowies.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/jkallini/MazeAdventures/blob/master/Images/heart.png&quot; width=&quot;40&quot; alt=&quot;Heart&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../../images/heart.png&quot; width=&quot;70&quot; alt=&quot;Heart&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;credits&quot;&gt;Credits&lt;/h2&gt;
 
