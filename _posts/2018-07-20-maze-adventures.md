@@ -15,7 +15,7 @@ tags:
 ## Preface
 
 ***Maze Adventures*** is a **Unity3D** game that I developed at Princeton Summer Programming
-Experiences (SPE) during the summer of 2018. I was one of 16 first-year Computer Science
+Experiences during the summer of 2018. I was one of 16 first-year Computer Science
 students chosen to work on an independent project with Princeton faculty.
 
 In preparation for creating the final game shown below, I researched and studied various maze
