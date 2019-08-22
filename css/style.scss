@@ -103,6 +103,12 @@ ul {
 	margin-left: -0%;
 	width: 100%;
 	font-weight: bold;
+
+	@media (min-width: $screen-sm-min) {
+		font-size: 62px;
+		margin-left: -10%;
+		width: 120%;
+	}
 }
 
 .menu-button {
@@ -143,6 +149,8 @@ ul {
 
 	p {
 		margin-bottom: 5px;
+		font-size: 28px;
+		font-family: 'Montserrat', sans-serif;
 	}
 
 	a, a:active {

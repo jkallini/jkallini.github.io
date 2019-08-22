@@ -5,8 +5,8 @@
     <description>This is the official website of Julie Kallini.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 22 Aug 2019 14:13:32 -0700</pubDate>
-    <lastBuildDate>Thu, 22 Aug 2019 14:13:32 -0700</lastBuildDate>
+    <pubDate>Thu, 22 Aug 2019 16:26:31 -0700</pubDate>
+    <lastBuildDate>Thu, 22 Aug 2019 16:26:31 -0700</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
