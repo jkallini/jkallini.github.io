@@ -52,12 +52,8 @@ ul {
   text-align: center;
   margin-top: 20px;
   margin-left: -0%;
-  width: 100%; }
-  @media (min-width: 768px) {
-    .header {
-      font-size: 62px;
-      margin-left: -10%;
-      width: 120%; } }
+  width: 100%;
+  font-weight: bold; }
 
 .menu-button {
   color: #FFFFFF;
@@ -86,12 +82,16 @@ ul {
   border-bottom: 5px solid #E592E0; }
   .content-panel h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 26px; }
+    font-size: 26px;
+    font-weight: bold; }
 
 #my-menu p {
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+  font-size: 28px;
+  font-family: 'Montserrat', sans-serif; }
 #my-menu a, #my-menu a:active {
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  font-size: 20px; }
 #my-menu a:hover {
   color: #E592E0; }
 #my-menu .pages .fa {
