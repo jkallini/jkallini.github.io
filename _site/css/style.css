@@ -86,9 +86,7 @@ ul {
     font-weight: bold; }
 
 #my-menu p {
-  margin-bottom: 5px;
-  font-size: 28px;
-  font-family: 'Montserrat', sans-serif; }
+  margin-bottom: 5px; }
 #my-menu a, #my-menu a:active {
   color: #FFFFFF;
   font-size: 20px; }
