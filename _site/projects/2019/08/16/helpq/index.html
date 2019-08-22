@@ -120,115 +120,21 @@
 participated in three weeks of mobile development training in Android prior to working on HelpQ with my teammates, <a href="https://www.linkedin.com/in/cassandra-cabrera-7b7582159/">Cassandra Cabrera</a> and <a href="https://www.linkedin.com/in/lonitra/">Loni Tra</a>.</p>
 
 <p>When coming up with app ideas, I considered my experiences as a student and an intern at FBU. In particular,
-I thought that the mobile development training course would have greatly benefited from an automated help queue to streamline communication between students who need help and instructors who are available to answer questions. When I suggested this idea to my teammates and mentors, they agreed that we should develop this app as our project.</p>
+I thought that the mobile development training course would have greatly benefited from an automated help queue to streamline communication between students who need help and administrators who are available to answer questions. When I suggested this idea to my teammates and mentors, they agreed that we should develop this app as our project.</p>
 
 <h2 id="about-the-app"><strong>About the App</strong></h2>
 <p><img src="../../../../../images/helpq_logo.png" width="100%" /></p>
 
 <p><strong>HelpQ</strong> is an app that revamps the CodePath training that FBU for Engineering interns experience during the first three weeks of their internships by facilitating smoother communication between students and administrators.</p>
 
-<p>HelpQ’s most fundamental function is to make students’ questions more <strong>organized</strong> and <strong>readily available</strong> for admins to answer. When a student asks a question, they can select their priority level (indicating the severity of the problem), and they type of help they would prefer (in-person or written). The admin can then easily see questions in order by date and priority on the queue.</p>
+<p>HelpQ’s most fundamental function is to make students’ questions more <strong>organized</strong> and <strong>readily available</strong> for admins to answer. Admins can easily see students’ questions in order by date and priority on the queue.
+Students who have been waiting the longest appear at the top of the queue, so the admin can’t miss them!</p>
 
-<p>All previously answered questions are stored on a searchable board that is available to all students. If a student has a question that has already been asked, they can easily find its answer without having to post a new question on the queue.</p>
+<p>All previously answered questions are stored on a <strong>searchable</strong> board that is available to all students. If a student has a question that has already been asked, they can easily find its answer without having to post a new question on the queue.</p>
 
-<p>If an admin sees many questions on a similar topic, they can create a workshop that students can sign up for.</p>
+<p>If an admin sees many questions on a similar topic, they can create a <strong>workshop</strong> for students to attend. Students can see all the workshops in reverse-chronological order and easily sign up for them.</p>
 
 <p>These are only a few of the features that HelpQ has to offer! To learn more about HelpQ’s functionality, view the project on <a href="https://github.com/FBUAndroidTeam/HelpQ">Github</a>, or continue reading below.</p>
-
-<h2 id="completed-features"><strong>Completed Features</strong></h2>
-
-<h3 id="loginsign-up"><em>Login/Sign up</em></h3>
-<ul>
-  <li>Students and admins can login with <strong>Facebook</strong>.</li>
-  <li>When a student signs up, they are prompted to choose their admin.</li>
-  <li>The current signed in user is persisted across app restarts.</li>
-</ul>
-
-<h3 id="queue"><em>Queue</em></h3>
-<ul>
-  <li>Students can <strong>ask questions</strong> on the queue.
-    <ul>
-      <li>Select priority, which indicates the severity of their issue (blocking, stretch, or curiosity).</li>
-      <li>Select type of help needed (written, or in person).</li>
-    </ul>
-  </li>
-  <li>Students can delete their own questions from the queue.</li>
-  <li>Admin can <strong>delete</strong> questions from the queue.</li>
-  <li>Admin can <strong>submit answers</strong> to questions that have requested written help.</li>
-  <li>Questions on the queue are sorted based on priority and date.</li>
-  <li><strong>Live estimated wait times</strong> are provided.
-    <ul>
-      <li>Displayed for each priority when asking a question.</li>
-      <li>Displayed for each question on the queue.</li>
-    </ul>
-  </li>
-</ul>
-
-<h3 id="student-to-student-help"><em>Student-to-Student Help</em></h3>
-<ul>
-  <li>Students can like and reply to other student’s questions on the queue.
-    <ul>
-      <li>If a student likes a question, it will also appear in their inbox when answered.</li>
-    </ul>
-  </li>
-  <li>Admin can verify replies to other student’s questions.</li>
-</ul>
-
-<h3 id="inbox-and-board"><em>Inbox and Board</em></h3>
-<ul>
-  <li>Students and admin can see a board of all students’ <strong>previously answered questions</strong>.</li>
-  <li>Students have an inbox of all the questions they have previously asked, with their answers.</li>
-  <li>Admin can choose to make a question’s answer <strong>private</strong>, so it will only appear in that student’s inbox.</li>
-</ul>
-
-<h3 id="fuzzy-search"><em>Fuzzy Search</em></h3>
-<ul>
-  <li><strong>Fuzzy search</strong> is available on queue, board, and inbox.
-    <ul>
-      <li>Admin/student can enter a search query and only see results that have a significant match.</li>
-      <li>Query results update with every character change.</li>
-    </ul>
-  </li>
-</ul>
-
-<h3 id="workshops"><em>Workshops</em></h3>
-<ul>
-  <li>Admin can create workshops, indicating the topic, time, and location.</li>
-  <li>Students can sign up for workshops.</li>
-  <li>Student is reminded 15 minutes before a workshop begins with a <strong>notification</strong>.
-    <ul>
-      <li>Students have a settings page where they can change the preferred time to 5 or 10 minutes.</li>
-    </ul>
-  </li>
-</ul>
-
-<h3 id="enrolled-students"><em>Enrolled Students</em></h3>
-<ul>
-  <li>Admin can see a list of their own students.
-    <ul>
-      <li>Admin can see a list of pending questions for each student.</li>
-    </ul>
-  </li>
-</ul>
-
-<h3 id="profile"><em>Profile</em></h3>
-<ul>
-  <li>Student/admin can see their profile page with their Facebook picture.
-    <ul>
-      <li>Admin’s profile displays the number of questions they have answered.</li>
-      <li>Student’s profile displays the number of answers that have been verified.</li>
-    </ul>
-  </li>
-</ul>
-
-<h3 id="additional-features"><em>Additional Features</em></h3>
-<ul>
-  <li><strong>In-app notification</strong> badges are displayed on tabs with new messages.</li>
-  <li>Pull down to refresh available on all lists.</li>
-  <li>Queue, board, and inbox items all display custom animations.</li>
-  <li>User interactions have sound effects.</li>
-  <li>Landscape orientation is available.</li>
-</ul>
 
 <h2 id="video-walkthroughs"><strong>Video Walkthroughs</strong></h2>
 
@@ -240,6 +146,99 @@ I thought that the mobile development training course would have greatly benefit
 <p><img src="https://raw.githubusercontent.com/FBUAndroidTeam/HelpQ/master/helpq_walkthrough2.gif" title="Admin Walkthrough" style="border-radius: 20px;" width="" alt="Admin Walkthrough" /></p>
 
 <p>GIFs created with <a href="http://www.cockos.com/licecap/">LiceCap</a>.</p>
+
+<h2 id="comprehensive-list-of-completed-features"><strong>Comprehensive List of Completed Features</strong></h2>
+
+<h3 id="loginsign-up"><em>Login/Sign up</em></h3>
+<ul>
+  <li>Students and admins can login with <strong>Facebook</strong>.</li>
+  <li>When a student signs up, they are prompted to choose their admin.</li>
+  <li>The current signed in user is persisted across app restarts.</li>
+  <li>App uses <strong>Parse</strong> as its backend to store user data.</li>
+</ul>
+
+<h3 id="queue"><em>Queue</em></h3>
+<ul>
+  <li>Students can <strong>ask questions</strong> on the queue.
+    <ul>
+      <li>Select priority, which indicates the severity of their issue (blocking, stretch, or curiosity).</li>
+      <li>Select type of help needed (written, or in person).</li>
+    </ul>
+  </li>
+  <li>Students can delete their own questions from the queue.</li>
+  <li>Admins can <strong>delete</strong> questions from the queue.</li>
+  <li>Admins can <strong>submit answers</strong> to questions that have requested written help.</li>
+  <li>Questions on the queue are sorted based on priority and date.</li>
+  <li><strong>Live estimated wait times</strong> are provided.
+    <ul>
+      <li>Displayed for each priority when asking a question.</li>
+      <li>Displayed for each question on the queue.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="student-to-student-help"><em>Student-to-Student Help</em></h3>
+<ul>
+  <li>Students can like and reply to other students’ questions on the queue.
+    <ul>
+      <li>If a student likes a question, it will also appear in their inbox when answered.</li>
+    </ul>
+  </li>
+  <li>Admins can verify replies to other student’s questions.</li>
+</ul>
+
+<h3 id="inbox-and-board"><em>Inbox and Board</em></h3>
+<ul>
+  <li>Students and admins can see a board of all students’ <strong>previously answered questions</strong>.</li>
+  <li>Students have an inbox of all the questions they have previously asked, with their answers.</li>
+  <li>Admins can choose to make a question’s answer <strong>private</strong>, so it will only appear in that student’s inbox.</li>
+</ul>
+
+<h3 id="fuzzy-search"><em>Fuzzy Search</em></h3>
+<ul>
+  <li><strong>Fuzzy search</strong> is available on queue, board, and inbox.
+    <ul>
+      <li>Search queries only yield results with a significant match.</li>
+      <li>Query results update with every character change.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="workshops"><em>Workshops</em></h3>
+<ul>
+  <li>Admins can create workshops, indicating the topic, time, and location.</li>
+  <li>Students can sign up for workshops.</li>
+  <li>Students are reminded 15 minutes before a workshop begins with a <strong>notification</strong>.
+    <ul>
+      <li>Students have a settings page where they can change the preferred time to 5 or 10 minutes.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="enrolled-students"><em>Enrolled Students</em></h3>
+<ul>
+  <li>Admins can view a list of their own students, along with all unanswered questions for each student.</li>
+</ul>
+
+<h3 id="profile"><em>Profile</em></h3>
+<ul>
+  <li>Students and admins can see their profile page with their Facebook picture.
+    <ul>
+      <li>An admin’s profile displays the number of questions they have answered.</li>
+      <li>A student’s profile displays the number of answers that have been verified.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="additional-features"><em>Additional Features</em></h3>
+<ul>
+  <li><strong>In-app notification</strong> badges are displayed on tabs with new messages.</li>
+  <li>New items are marked in the queue, board, and inbox.</li>
+  <li>Pull down to refresh is available on all pages.</li>
+  <li>Queue, board, and inbox items all display custom animations.</li>
+  <li>User interactions have sound effects.</li>
+  <li>Landscape orientation is available.</li>
+</ul>
 
 </span>
 
