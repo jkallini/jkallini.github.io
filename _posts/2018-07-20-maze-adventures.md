@@ -12,7 +12,7 @@ tags:
  - SPE
 ---
 
-## Preface
+## **Preface**
 
 ***Maze Adventures*** is a **Unity3D** game that I developed at Princeton Summer Programming
 Experiences during the summer of 2018. I was one of 16 first-year Computer Science
@@ -24,7 +24,7 @@ generating and solving algorithms, and implemented simulations of these algorith
 View the project on [Github](https://github.com/jkallini/MazeAdventures), or play the game
 [here](https://juliekallini.com/MazeAdventures/).
 
-## About the Game
+## **About the Game**
 <img src="../../../../../images/title.png" width="100%" style="border-radius:20px;"
 alt="Maze Adventures">
 
@@ -45,9 +45,9 @@ The Glowies, the keys, and the rooms are distributed randomly across the maze us
 positions every time you start a new level, but the Glowies won't be able to gang up on you in one section of
 the maze.
 
-## Completed Features
+## **Completed Features**
 
-### Menu and Maze Generation
+### *Menu and Maze Generation*
 - Main menu screen allows the player to input the desired dimensions of the maze.
 - During a level, the player can pause at any time, and return to the main menu.
 - Random mazes generated at runtime.
@@ -56,7 +56,7 @@ the maze.
   - Exactly same number of keys and rooms are generated.
   - Objects are placed randomly but cannot spawn in the same locations.
 
-### Characters
+### *Characters*
 - Player can rotate in the direction of the cursor and fire projectiles on click.
 - Bomb enemies created. 
   - Can follow the player's transform and inflict damage upon contact.
@@ -64,7 +64,7 @@ the maze.
 - Fire enemies created.
   - Can shoot projectiles in the direction of the player's transform that inflict damage.
   
-### Assets, Animations, and UI
+### *Assets, Animations, and UI*
 - All 3D models and animations created from scratch in Unity.
 - Player and enemies flash while taking damage.
 - Player's health bar decreases when the player is damaged and increases after the player finds health.
@@ -73,63 +73,63 @@ the maze.
 - Collectible items rotate.
 - Player and enemies explode upon death.
 
-## Directions
+## **Directions**
 
 Use `WASD` to move around. Your cursor indicates the direction you want to shoot. Left-click to shoot a
 pellet. If you have a key, you can use it to unlock a room. Stand next to the door of the room and press
 `return` to unlock the door. Once all rooms have been opened, navigate to the exit in the top-right corner
 of the maze.
 
-## Video Walkthrough
+## **Video Walkthrough**
 <iframe src="https://player.vimeo.com/video/355216571?autoplay=1&loop=1" width="100%" height="479" frameborder="0" style="text-align: center" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-### Player
+### *Player*
 This is you!
 
 <img src="../../../../../images/player.png" width="80"
 alt="Player">
 
-### Key
+### *Key*
 Collect these keys to unlock rooms!
 
 <img src="../../../../../images/key.png" width="80"
 alt="Key">
 
 
-### Room
+### *Room*
 These are rooms where your fellow Pills are trapped!
 
 <img src="../../../../../images/room.png" width="230"
 alt="Room">
 
-### Bomb Glowy
+### *Bomb Glowy*
 Bomb Glowies can follow you around. Don't let them touch you!
 They can also drop bombs when they get close to you!
 
 <img src="../../../../../images/red_enemy.png" width="80"
 alt="Bomb Glowy">
 
-### Bomb
+### *Bomb*
 Bombs are dropped by Bomb Glowies. Bombs can break walls, which makes it easier to get
 through the maze. But don't be too close to the bombs when they explode!
 
 <img src="../../../../../images/bomb.png" width="70"
 alt="Bomb">
 
-### Fire Glowy
+### *Fire Glowy*
 Fire Glowies are stationary, but they can shoot fire balls at you! They also take
 twice as much damage as Bomb Glowies.
 
 <img src="../../../../../images/fire_enemy.png" width="150"
 alt="Fire Glowy">
 
-### Heart
+### *Heart*
 Hearts replenish some of your health. You can find them by searching the maze,
 or by defeating Glowies.
 
 <img src="../../../../../images/heart.png" width="70"
 alt="Heart">
 
-## Credits
+## **Credits**
 
 - [Poisson-disc sampling in Unity](http://gregschlom.com/devlog/2014/06/29/Poisson-disc-sampling-Unity.html)

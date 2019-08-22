@@ -5,8 +5,8 @@
     <description>This is the official website of Julie Kallini.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 22 Aug 2019 11:26:39 -0700</pubDate>
-    <lastBuildDate>Thu, 22 Aug 2019 11:26:39 -0700</lastBuildDate>
+    <pubDate>Thu, 22 Aug 2019 12:54:29 -0700</pubDate>
+    <lastBuildDate>Thu, 22 Aug 2019 12:54:29 -0700</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -234,7 +234,7 @@ Students who have been waiting the longest appear at the top of the queue, so th
     
       <item>
         <title>Maze Adventures</title>
-        <description>&lt;h2 id=&quot;preface&quot;&gt;Preface&lt;/h2&gt;
+        <description>&lt;h2 id=&quot;preface&quot;&gt;&lt;strong&gt;Preface&lt;/strong&gt;&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Maze Adventures&lt;/em&gt;&lt;/strong&gt; is a &lt;strong&gt;Unity3D&lt;/strong&gt; game that I developed at Princeton Summer Programming
 Experiences during the summer of 2018. I was one of 16 first-year Computer Science
@@ -246,7 +246,7 @@ generating and solving algorithms, and implemented simulations of these algorith
 &lt;p&gt;View the project on &lt;a href=&quot;https://github.com/jkallini/MazeAdventures&quot;&gt;Github&lt;/a&gt;, or play the game
 &lt;a href=&quot;https://juliekallini.com/MazeAdventures/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&quot;about-the-game&quot;&gt;About the Game&lt;/h2&gt;
+&lt;h2 id=&quot;about-the-game&quot;&gt;&lt;strong&gt;About the Game&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;../../../../../images/title.png&quot; width=&quot;100%&quot; style=&quot;border-radius:20px;&quot; alt=&quot;Maze Adventures&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In &lt;strong&gt;Maze Adventures&lt;/strong&gt;, you play as a lonely pill trying to escape a dangerous maze.
@@ -266,9 +266,9 @@ the rooms before you can leave the maze!&lt;/p&gt;
 positions every time you start a new level, but the Glowies won’t be able to gang up on you in one section of
 the maze.&lt;/p&gt;
 
-&lt;h2 id=&quot;completed-features&quot;&gt;Completed Features&lt;/h2&gt;
+&lt;h2 id=&quot;completed-features&quot;&gt;&lt;strong&gt;Completed Features&lt;/strong&gt;&lt;/h2&gt;
 
-&lt;h3 id=&quot;menu-and-maze-generation&quot;&gt;Menu and Maze Generation&lt;/h3&gt;
+&lt;h3 id=&quot;menu-and-maze-generation&quot;&gt;&lt;em&gt;Menu and Maze Generation&lt;/em&gt;&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;Main menu screen allows the player to input the desired dimensions of the maze.&lt;/li&gt;
   &lt;li&gt;During a level, the player can pause at any time, and return to the main menu.&lt;/li&gt;
@@ -285,7 +285,7 @@ the maze.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;characters&quot;&gt;Characters&lt;/h3&gt;
+&lt;h3 id=&quot;characters&quot;&gt;&lt;em&gt;Characters&lt;/em&gt;&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;Player can rotate in the direction of the cursor and fire projectiles on click.&lt;/li&gt;
   &lt;li&gt;Bomb enemies created.
@@ -301,7 +301,7 @@ the maze.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;assets-animations-and-ui&quot;&gt;Assets, Animations, and UI&lt;/h3&gt;
+&lt;h3 id=&quot;assets-animations-and-ui&quot;&gt;&lt;em&gt;Assets, Animations, and UI&lt;/em&gt;&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;All 3D models and animations created from scratch in Unity.&lt;/li&gt;
   &lt;li&gt;Player and enemies flash while taking damage.&lt;/li&gt;
@@ -312,56 +312,56 @@ the maze.&lt;/p&gt;
   &lt;li&gt;Player and enemies explode upon death.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;directions&quot;&gt;Directions&lt;/h2&gt;
+&lt;h2 id=&quot;directions&quot;&gt;&lt;strong&gt;Directions&lt;/strong&gt;&lt;/h2&gt;
 
 &lt;p&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;WASD&lt;/code&gt; to move around. Your cursor indicates the direction you want to shoot. Left-click to shoot a
 pellet. If you have a key, you can use it to unlock a room. Stand next to the door of the room and press
 &lt;code class=&quot;highlighter-rouge&quot;&gt;return&lt;/code&gt; to unlock the door. Once all rooms have been opened, navigate to the exit in the top-right corner
 of the maze.&lt;/p&gt;
 
-&lt;h2 id=&quot;video-walkthrough&quot;&gt;Video Walkthrough&lt;/h2&gt;
+&lt;h2 id=&quot;video-walkthrough&quot;&gt;&lt;strong&gt;Video Walkthrough&lt;/strong&gt;&lt;/h2&gt;
 &lt;iframe src=&quot;https://player.vimeo.com/video/355216571?autoplay=1&amp;amp;loop=1&quot; width=&quot;100%&quot; height=&quot;479&quot; frameborder=&quot;0&quot; style=&quot;text-align: center&quot; allow=&quot;autoplay; fullscreen&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;h3 id=&quot;player&quot;&gt;Player&lt;/h3&gt;
+&lt;h3 id=&quot;player&quot;&gt;&lt;em&gt;Player&lt;/em&gt;&lt;/h3&gt;
 &lt;p&gt;This is you!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../../../../../images/player.png&quot; width=&quot;80&quot; alt=&quot;Player&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;key&quot;&gt;Key&lt;/h3&gt;
+&lt;h3 id=&quot;key&quot;&gt;&lt;em&gt;Key&lt;/em&gt;&lt;/h3&gt;
 &lt;p&gt;Collect these keys to unlock rooms!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../../../../../images/key.png&quot; width=&quot;80&quot; alt=&quot;Key&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;room&quot;&gt;Room&lt;/h3&gt;
+&lt;h3 id=&quot;room&quot;&gt;&lt;em&gt;Room&lt;/em&gt;&lt;/h3&gt;
 &lt;p&gt;These are rooms where your fellow Pills are trapped!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../../../../../images/room.png&quot; width=&quot;230&quot; alt=&quot;Room&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;bomb-glowy&quot;&gt;Bomb Glowy&lt;/h3&gt;
+&lt;h3 id=&quot;bomb-glowy&quot;&gt;&lt;em&gt;Bomb Glowy&lt;/em&gt;&lt;/h3&gt;
 &lt;p&gt;Bomb Glowies can follow you around. Don’t let them touch you!
 They can also drop bombs when they get close to you!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../../../../../images/red_enemy.png&quot; width=&quot;80&quot; alt=&quot;Bomb Glowy&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;bomb&quot;&gt;Bomb&lt;/h3&gt;
+&lt;h3 id=&quot;bomb&quot;&gt;&lt;em&gt;Bomb&lt;/em&gt;&lt;/h3&gt;
 &lt;p&gt;Bombs are dropped by Bomb Glowies. Bombs can break walls, which makes it easier to get
 through the maze. But don’t be too close to the bombs when they explode!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../../../../../images/bomb.png&quot; width=&quot;70&quot; alt=&quot;Bomb&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;fire-glowy&quot;&gt;Fire Glowy&lt;/h3&gt;
+&lt;h3 id=&quot;fire-glowy&quot;&gt;&lt;em&gt;Fire Glowy&lt;/em&gt;&lt;/h3&gt;
 &lt;p&gt;Fire Glowies are stationary, but they can shoot fire balls at you! They also take
 twice as much damage as Bomb Glowies.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../../../../../images/fire_enemy.png&quot; width=&quot;150&quot; alt=&quot;Fire Glowy&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;heart&quot;&gt;Heart&lt;/h3&gt;
+&lt;h3 id=&quot;heart&quot;&gt;&lt;em&gt;Heart&lt;/em&gt;&lt;/h3&gt;
 &lt;p&gt;Hearts replenish some of your health. You can find them by searching the maze,
 or by defeating Glowies.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../../../../../images/heart.png&quot; width=&quot;70&quot; alt=&quot;Heart&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;credits&quot;&gt;Credits&lt;/h2&gt;
+&lt;h2 id=&quot;credits&quot;&gt;&lt;strong&gt;Credits&lt;/strong&gt;&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://gregschlom.com/devlog/2014/06/29/Poisson-disc-sampling-Unity.html&quot;&gt;Poisson-disc sampling in Unity&lt;/a&gt;&lt;/li&gt;

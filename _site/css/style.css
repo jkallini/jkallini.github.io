@@ -310,20 +310,22 @@ ul {
       margin-bottom: 10px; }
   .single .article {
     width: 100%;
+    margin-top: 60px;
     margin-left: 0%;
     padding: 0px; }
     @media (min-width: 768px) {
       .single .article {
         width: 90%;
+        margin-top: 0px;
         margin-left: 5%; } }
     @media (min-width: 992px) {
       .single .article {
-        width: 70%;
-        margin-left: 15%; } }
+        width: 80%;
+        margin-left: 10%; } }
     @media (min-width: 1200px) {
       .single .article {
-        width: 50%;
-        margin-left: 25%; } }
+        width: 60%;
+        margin-left: 20%; } }
     .single .article .thumb {
       margin-top: 20px;
       margin-bottom: 0px;
@@ -346,7 +348,7 @@ ul {
         .single .article .read-time {
           margin-bottom: 40px; } }
     .single .article .content {
-      font-size: 18px;
+      font-size: 16px;
       line-height: 170%;
       padding-left: 15px;
       padding-right: 15px;
@@ -354,7 +356,7 @@ ul {
       padding-bottom: 10px; }
       @media (min-width: 768px) {
         .single .article .content {
-          font-size: 24px;
+          font-size: 20px;
           padding-left: 30px;
           padding-right: 30px;
           padding-top: 40px;
@@ -375,7 +377,7 @@ ul {
         position: relative;
         width: 100%;
         margin-left: -15px;
-        padding-right: 10px;
+        padding-right: 45px;
         background-color: #21211E;
         color: white;
         box-sizing: content-box;
@@ -404,43 +406,39 @@ ul {
       .single .article .content .aligncenter {
         display: block;
         margin: 5px auto 5px auto; }
-      .single .article .content figure.highlight, .single .article .content div.highlighter-rouge {
+      .single .article .content pre {
         width: 100%;
+        font-family: 'Anonymous Pro';
+        background-color: #21211E;
+        color: #FFFFFF;
+        font-size: 12px;
+        border: none;
+        padding-left: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 15px;
+        box-sizing: content-box;
+        border-radius: 0;
         margin-left: -15px;
-        padding-right: 10px;
-        box-sizing: content-box; }
+        margin-bottom: 10px;
+        margin-top: 10px; }
         @media (min-width: 768px) {
-          .single .article .content figure.highlight, .single .article .content div.highlighter-rouge {
+          .single .article .content pre {
+            padding-left: 50px;
+            padding-right: 10px;
+            margin-bottom: 40px;
             margin-left: -30px;
-            padding-right: 60px; } }
-        .single .article .content figure.highlight pre, .single .article .content div.highlighter-rouge pre {
-          width: 100%;
-          font-family: 'Anonymous Pro';
-          background-color: #21211E;
-          color: #FFFFFF;
-          font-size: 12px;
-          border: none;
-          padding-left: 15px;
-          padding-top: 20px;
-          padding-bottom: 20px;
-          padding-right: 15px;
-          box-sizing: content-box;
-          border-radius: 0;
-          margin-bottom: 10px;
-          margin-top: 10px; }
-          @media (min-width: 768px) {
-            .single .article .content figure.highlight pre, .single .article .content div.highlighter-rouge pre {
-              padding-left: 50px;
-              padding-right: 10px;
-              margin-bottom: 40px;
-              font-size: 15px; } }
-      .single .article .content p code, .single .article .content ul code, .single .article .content ol code {
+            font-size: 15px; } }
+      .single .article .content code {
         font-family: 'Anonymous Pro';
         font-size: 15px;
         background-color: #21211E;
         color: #FFFFFF;
-        padding: 0.5em;
         vertical-align: middle; }
+      .single .article .content .share {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        text-align: center; }
       .single .article .content .tags {
         margin-top: 10px;
         margin-bottom: 10px;
@@ -449,9 +447,9 @@ ul {
           color: #FFFFFF; }
         .single .article .content .tags a:hover {
           color: #E592E0; }
-      .single .article .content .share {
-        margin-top: 20px;
-        margin-bottom: 10px;
+      .single .article .content .suggest-edit {
+        font-size: 14px;
+        font-style: italic;
         text-align: center; }
     .single .article .feedback {
       text-align: center; }
