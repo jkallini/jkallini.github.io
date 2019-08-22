@@ -5,8 +5,8 @@
     <description>This is the official website of Julie Kallini.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 21 Aug 2019 17:08:30 -0700</pubDate>
-    <lastBuildDate>Wed, 21 Aug 2019 17:08:30 -0700</lastBuildDate>
+    <pubDate>Thu, 22 Aug 2019 00:45:44 -0700</pubDate>
+    <lastBuildDate>Thu, 22 Aug 2019 00:45:44 -0700</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -61,6 +61,151 @@ for me anyway.&lt;/p&gt;
         
         
         <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>HelpQ</title>
+        <description>&lt;h2 id=&quot;preface&quot;&gt;&lt;strong&gt;Preface&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;HelpQ&lt;/em&gt;&lt;/strong&gt; is an &lt;strong&gt;Android app&lt;/strong&gt; that I developed at &lt;a href=&quot;https://www.facebook.com/careers/students-and-grads/students&quot;&gt;Facebook University (FBU) for Engineering&lt;/a&gt; during the summer of 2019. As an intern at FBU, I
+participated in three weeks of mobile development training in Android prior to working on HelpQ with my teammates, &lt;a href=&quot;https://www.linkedin.com/in/cassandra-cabrera-7b7582159/&quot;&gt;Cassandra Cabrera&lt;/a&gt; and &lt;a href=&quot;https://www.linkedin.com/in/lonitra/&quot;&gt;Loni Tra&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;When coming up with app ideas, I considered my experiences as a student and an intern at FBU. In particular,
+I thought that the mobile development training course would have greatly benefited from an automated help queue to streamline communication between students who need help and instructors who are available to answer questions. When I suggested this idea to my teammates and mentors, they agreed that we should develop this app as our project.&lt;/p&gt;
+
+&lt;h2 id=&quot;about-the-app&quot;&gt;&lt;strong&gt;About the App&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../../images/helpq_logo.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;HelpQ&lt;/strong&gt; is an app that revamps the CodePath training that FBU for Engineering interns experience during the first three weeks of their internships by facilitating smoother communication between students and administrators.&lt;/p&gt;
+
+&lt;p&gt;HelpQ’s most fundamental function is to make students’ questions more &lt;strong&gt;organized&lt;/strong&gt; and &lt;strong&gt;readily available&lt;/strong&gt; for admins to answer. When a student asks a question, they can select their priority level (indicating the severity of the problem), and they type of help they would prefer (in-person or written). The admin can then easily see questions in order by date and priority on the queue.&lt;/p&gt;
+
+&lt;p&gt;All previously answered questions are stored on a searchable board that is available to all students. If a student has a question that has already been asked, they can easily find its answer without having to post a new question on the queue.&lt;/p&gt;
+
+&lt;p&gt;If an admin sees many questions on a similar topic, they can create a workshop that students can sign up for.&lt;/p&gt;
+
+&lt;p&gt;These are only a few of the features that HelpQ has to offer! To learn more about HelpQ’s functionality, view the project on &lt;a href=&quot;https://github.com/FBUAndroidTeam/HelpQ&quot;&gt;Github&lt;/a&gt;, or continue reading below.&lt;/p&gt;
+
+&lt;h2 id=&quot;completed-features&quot;&gt;&lt;strong&gt;Completed Features&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;h3 id=&quot;loginsign-up&quot;&gt;&lt;em&gt;Login/Sign up&lt;/em&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Students and admins can login with &lt;strong&gt;Facebook&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;When a student signs up, they are prompted to choose their admin.&lt;/li&gt;
+  &lt;li&gt;The current signed in user is persisted across app restarts.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;queue&quot;&gt;&lt;em&gt;Queue&lt;/em&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Students can &lt;strong&gt;ask questions&lt;/strong&gt; on the queue.
+    &lt;ul&gt;
+      &lt;li&gt;Select priority, which indicates the severity of their issue (blocking, stretch, or curiosity).&lt;/li&gt;
+      &lt;li&gt;Select type of help needed (written, or in person).&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Students can delete their own questions from the queue.&lt;/li&gt;
+  &lt;li&gt;Admin can &lt;strong&gt;delete&lt;/strong&gt; questions from the queue.&lt;/li&gt;
+  &lt;li&gt;Admin can &lt;strong&gt;submit answers&lt;/strong&gt; to questions that have requested written help.&lt;/li&gt;
+  &lt;li&gt;Questions on the queue are sorted based on priority and date.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Live estimated wait times&lt;/strong&gt; are provided.
+    &lt;ul&gt;
+      &lt;li&gt;Displayed for each priority when asking a question.&lt;/li&gt;
+      &lt;li&gt;Displayed for each question on the queue.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;student-to-student-help&quot;&gt;&lt;em&gt;Student-to-Student Help&lt;/em&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Students can like and reply to other student’s questions on the queue.
+    &lt;ul&gt;
+      &lt;li&gt;If a student likes a question, it will also appear in their inbox when answered.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Admin can verify replies to other student’s questions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;inbox-and-board&quot;&gt;&lt;em&gt;Inbox and Board&lt;/em&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Students and admin can see a board of all students’ &lt;strong&gt;previously answered questions&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Students have an inbox of all the questions they have previously asked, with their answers.&lt;/li&gt;
+  &lt;li&gt;Admin can choose to make a question’s answer &lt;strong&gt;private&lt;/strong&gt;, so it will only appear in that student’s inbox.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;fuzzy-search&quot;&gt;&lt;em&gt;Fuzzy Search&lt;/em&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Fuzzy search&lt;/strong&gt; is available on queue, board, and inbox.
+    &lt;ul&gt;
+      &lt;li&gt;Admin/student can enter a search query and only see results that have a significant match.&lt;/li&gt;
+      &lt;li&gt;Query results update with every character change.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;workshops&quot;&gt;&lt;em&gt;Workshops&lt;/em&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Admin can create workshops, indicating the topic, time, and location.&lt;/li&gt;
+  &lt;li&gt;Students can sign up for workshops.&lt;/li&gt;
+  &lt;li&gt;Student is reminded 15 minutes before a workshop begins with a &lt;strong&gt;notification&lt;/strong&gt;.
+    &lt;ul&gt;
+      &lt;li&gt;Students have a settings page where they can change the preferred time to 5 or 10 minutes.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;enrolled-students&quot;&gt;&lt;em&gt;Enrolled Students&lt;/em&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Admin can see a list of their own students.
+    &lt;ul&gt;
+      &lt;li&gt;Admin can see a list of pending questions for each student.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;profile&quot;&gt;&lt;em&gt;Profile&lt;/em&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Student/admin can see their profile page with their Facebook picture.
+    &lt;ul&gt;
+      &lt;li&gt;Admin’s profile displays the number of questions they have answered.&lt;/li&gt;
+      &lt;li&gt;Student’s profile displays the number of answers that have been verified.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;additional-features&quot;&gt;&lt;em&gt;Additional Features&lt;/em&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;In-app notification&lt;/strong&gt; badges are displayed on tabs with new messages.&lt;/li&gt;
+  &lt;li&gt;Pull down to refresh available on all lists.&lt;/li&gt;
+  &lt;li&gt;Queue, board, and inbox items all display custom animations.&lt;/li&gt;
+  &lt;li&gt;User interactions have sound effects.&lt;/li&gt;
+  &lt;li&gt;Landscape orientation is available.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;video-walkthroughs&quot;&gt;&lt;strong&gt;Video Walkthroughs&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Here’s a walkthrough of implemented features:&lt;/p&gt;
+&lt;h3 id=&quot;student-walkthrough&quot;&gt;&lt;em&gt;Student Walkthrough:&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/FBUAndroidTeam/HelpQ/master/helpq_walkthrough1.gif&quot; style=&quot;border-radius: 20px;&quot; title=&quot;Student Walkthrough&quot; width=&quot;&quot; alt=&quot;Student Walkthrough&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;admin-walkthrough&quot;&gt;&lt;em&gt;Admin Walkthrough:&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/FBUAndroidTeam/HelpQ/master/helpq_walkthrough2.gif&quot; title=&quot;Admin Walkthrough&quot; style=&quot;border-radius: 20px;&quot; width=&quot;&quot; alt=&quot;Admin Walkthrough&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;GIFs created with &lt;a href=&quot;http://www.cockos.com/licecap/&quot;&gt;LiceCap&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 16 Aug 2019 11:41:19 -0700</pubDate>
+        <link>http://localhost:4000/projects/2019/08/16/helpq/</link>
+        <guid isPermaLink="true">http://localhost:4000/projects/2019/08/16/helpq/</guid>
+        
+        <category>projects</category>
+        
+        <category>facebook</category>
+        
+        <category>android</category>
+        
+        
+        <category>projects</category>
         
       </item>
     
