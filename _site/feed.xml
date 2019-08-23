@@ -5,8 +5,8 @@
     <description>This is the official website of Julie Kallini.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 22 Aug 2019 19:48:10 -0700</pubDate>
-    <lastBuildDate>Thu, 22 Aug 2019 19:48:10 -0700</lastBuildDate>
+    <pubDate>Fri, 23 Aug 2019 11:44:05 -0700</pubDate>
+    <lastBuildDate>Fri, 23 Aug 2019 11:44:05 -0700</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -190,6 +190,11 @@ Students who have been waiting the longest appear at the top of the queue, so th
   &lt;li&gt;Queue, board, and inbox items all display custom animations.&lt;/li&gt;
   &lt;li&gt;User interactions have sound effects.&lt;/li&gt;
   &lt;li&gt;Landscape orientation is available.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;credits&quot;&gt;&lt;strong&gt;Credits&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/xdrop/fuzzywuzzy&quot;&gt;JavaWuzzy&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
