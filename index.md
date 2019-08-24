@@ -14,8 +14,17 @@ make-smaller-titles: true
                 {{ site.title_description }}
             </div>
             {% include social_links.html %}
+            <br/>
+            <center>
+            <a href="#about">About Me</a> |
+            <a href="#education">Education</a> |
+            <a href="#experience">Experience</a> |
+            <a href="#projects">Projects</a> |
+            <a href="#recent_posts">Recent Posts</a>
+            </center>
           </div>
         <div class="col-md-12 main content-panel">
+            <a id="about"></a>
             <div class="articles">
                 <h2>About Me</h2>
             </div>
@@ -24,17 +33,21 @@ make-smaller-titles: true
             </p>
         </div>
         <div class="col-md-12 main content-panel">
+            <a id="education"></a>
             {% include education.html %}
         </div>
         <div class="col-md-12 main content-panel">
+            <a id="experience"></a>
             {% include experience.html %}
         </div>
         <div class="col-md-12 main content-panel">
+            <a id="projects"></a>
             {% include projects.html %}
         </div>
         <div class="col-md-12 main content-panel">
+            <a id="recent_posts"></a>
             <div class="articles">
-            <h2>Latest Articles</h2>
+            <h2>Recent Posts</h2>
             <ul>
                 {% for post in site.posts limit: site.post_limit %}
                     <li>
