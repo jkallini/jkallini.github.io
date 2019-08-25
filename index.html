@@ -16,36 +16,26 @@ make-smaller-titles: true
             {% include social_links.html %}
             <br/>
             <center>
-            <a href="#about">About Me</a> |
-            <a href="#education">Education</a> |
-            <a href="#experience">Experience</a> |
-            <a href="#projects">Projects</a> |
-            <a href="#recent_posts">Recent Posts</a>
+                <a data-scroll href="#about_me">About Me</a> |
+                <a data-scroll href="#education">Education</a> |
+                <a data-scroll href="#experience">Experience</a> |
+                <a data-scroll href="#projects">Projects</a> |
+                <a data-scroll href="#recent_posts">Recent Posts</a>
             </center>
           </div>
-        <div class="col-md-12 main content-panel">
-            <a id="about"></a>
-            <div class="articles">
-                <h2>About Me</h2>
-            </div>
-            <p markdown="1">
-            {% include about.md %}
-            </p>
+        <div id="about_me" class="col-md-12 main content-panel">
+            {% include about.html %}
         </div>
-        <div class="col-md-12 main content-panel">
-            <a id="education"></a>
+        <div id="education" class="col-md-12 main content-panel">
             {% include education.html %}
         </div>
-        <div class="col-md-12 main content-panel">
-            <a id="experience"></a>
+        <div id="experience" class="col-md-12 main content-panel">
             {% include experience.html %}
         </div>
-        <div class="col-md-12 main content-panel">
-            <a id="projects"></a>
+        <div id="projects" class="col-md-12 main content-panel">
             {% include projects.html %}
         </div>
-        <div class="col-md-12 main content-panel">
-            <a id="recent_posts"></a>
+        <div id="recent_posts" class="col-md-12 main content-panel">
             <div class="articles">
             <h2>Recent Posts</h2>
             <ul>
@@ -63,3 +53,9 @@ make-smaller-titles: true
         </div>
     </div>
 </div>
+
+<script src="smooth-scroll-master/dist/smooth-scroll.polyfills.min.js"></script>
+
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
