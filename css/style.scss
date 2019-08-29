@@ -54,7 +54,7 @@ body {
 	width: 100%
 }
 
-a, a:active {
+a, a:active, a:visited {
 	color: $light-pink;
 	text-decoration: none;
 }
@@ -98,7 +98,7 @@ ul {
 }
 
 .header {
-	font-size: 32px;
+	font-size: 62px;
 	text-align: center;
 	margin-top: 20px;
 	margin-left: -0%;
@@ -118,6 +118,7 @@ ul {
 	position: fixed;
 	top: 10px;
 	left: 20px;
+	border-radius: 10px;
 	cursor: pointer;
 	line-height: 1em;
 	padding: 10px;
@@ -271,7 +272,7 @@ ul {
 		color: $light-pink;
 		margin-top: 0px;
 		padding-top: 15px;
-		font-size: 30px;
+		font-size: 52px;
 
 		@media (min-width: $screen-sm-min) {
 			font-size: 52px;
@@ -280,7 +281,7 @@ ul {
 
 		@media (min-width: $screen-md-min) {
 			font-size: 60px;
-			margin-top: -20px;
+			margin-top: -10px;
 		}
 	}
 
@@ -1007,10 +1008,11 @@ table.borderless td {
 	max-width: 700px;
 	box-shadow: 0px 0px 0px 0px, 0px 6px 12px rgba(0, 0, 0, 0.2);
 	border-bottom: 5px solid $light-pink;
+}
 
-	h2 {
-		font-family: 'Montserrat', sans-serif;
-		font-size: 26px;
-		font-weight: bold;
-	}
+a.anchor {
+    display: block;
+    position: relative;
+    top: -110px;
+    visibility: hidden;
 }
