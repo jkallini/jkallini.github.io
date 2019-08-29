@@ -14,7 +14,9 @@ make-smaller-titles: true
                 {{ site.title_description }}
             </div>
             {% include social_links.html %}
-            <br/>
+        </div>
+
+        <div class="col-md-12 main nav-panel">
             <center>
                 <a data-scroll href="#about_me">About Me</a> |
                 <a data-scroll href="#education">Education</a> |
@@ -22,10 +24,12 @@ make-smaller-titles: true
                 <a data-scroll href="#projects">Projects</a> |
                 <a data-scroll href="#recent_posts">Recent Posts</a>
             </center>
-          </div>
+        </div>
+
         <div id="about_me" class="col-md-12 main content-panel">
             {% include about.html %}
         </div>
+
         <div id="education" class="col-md-12 main content-panel">
             {% include education.html %}
         </div>
@@ -55,7 +59,14 @@ make-smaller-titles: true
 </div>
 
 <script src="js/smooth-scroll.polyfills.min.js"></script>
+<script src="js/stickyfill.min.js"></script>
 
 <script>
 	var scroll = new SmoothScroll('a[href*="#"]');
 </script>
+
+<script>
+    var elements = document.querySelectorAll('.nav-panel');
+    Stickyfill.add(elements);
+</script>
+
