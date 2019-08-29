@@ -995,7 +995,9 @@ table.borderless td {
 }
 
 .nav-panel{
-	background-color: $medium;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	background-color: $dark;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 30px;
@@ -1006,8 +1008,8 @@ table.borderless td {
 	top: 0px;
 	z-index: 50;
 	max-width: 700px;
-	box-shadow: 0px 0px 0px 0px, 0px 6px 12px rgba(0, 0, 0, 0.2);
-	border-bottom: 5px solid $light-pink;
+	box-shadow: 0px 0px 0px 0px, 0px 12px 12px rgba(0, 0, 0, 0.4);
+	border: 5px solid $light-pink;
 }
 
 a.anchor {
