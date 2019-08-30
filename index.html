@@ -22,6 +22,7 @@ make-smaller-titles: true
                 <a data-scroll href="#education">Education</a> |
                 <a data-scroll href="#experience">Experience</a> |
                 <a data-scroll href="#projects">Projects</a> |
+                <a data-scroll href="#volunteering">Volunteering</a> |
                 <a data-scroll href="#recent_posts">Recent Posts</a>
             </center>
         </div>
@@ -47,6 +48,11 @@ make-smaller-titles: true
         </div>
 
         <div class="col-md-12 main content-panel">
+            <a class="anchor" id="volunteering"></a>
+            {% include volunteering.html %}
+        </div>
+
+        <div class="col-md-12 main content-panel">
             <a class="anchor" id="recent_posts"></a>
             <div class="articles">
             <h2>Recent Posts</h2>
@@ -63,7 +69,7 @@ make-smaller-titles: true
               </ul>
             </div>
         </div>
-        
+
     </div>
 </div>
 
