@@ -1007,9 +1007,12 @@ table.borderless td {
 	position: sticky;
 	top: 0px;
 	z-index: 50;
-	max-width: 700px;
 	box-shadow: 0px 0px 0px 0px, 0px 12px 12px rgba(0, 0, 0, 0.4);
 	border: 5px solid $light-pink;
+
+	@media (max-width: 400px) {
+		position: relative;
+	  }
 }
 
 a.anchor {
