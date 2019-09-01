@@ -1031,21 +1031,21 @@ a.anchor {
 	-moz-column-count:    3;
 	-moz-column-gap:      0px;
 	column-count:         3;
-	column-gap:           0px;  
+	column-gap:           0px;
 }
   
 #photos img {
 	/* Just in case there are inline attributes */
 	width: 100% !important;
 	height: auto !important;
-	transition: 1s;
-	border-radius: 20px;
-	padding: 10px;
+	transition: .5s ease;
+	border-radius: 15px;
+	border: 5px solid $medium;
 }
 
 #photos img:hover {
-	filter: grayscale(100%);
-	transform: scale(1.1);
+	opacity: 0.5;
+	border: 5px solid #000;
 }
 
 @media (max-width: 1000px) {
