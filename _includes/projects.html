@@ -1,124 +1,32 @@
-<div class="articles">
-    <h2>Projects</h2>
+<div class="grid-item">
+  {% if project.redirect %}
+  <a href="{{ project.redirect }}" target="_blank">
+  {% else %}
+  <a href="{{ project.url | relative_url }}">
+  {% endif %}
+    <div class="card hoverable">
+      {% if project.img %}
+      <img src="{{ project.img | relative_url }}" alt="project thumbnail">
+      {% endif %}
+      <div class="card-body">
+        <h2 class="card-title text-lowercase">{{ project.title }}</h2>
+        <p class="card-text">{{ project.description }}</p>
+        <div class="row ml-1 mr-1 p-0">
+          {% if project.github %}
+          <div class="github-icon">
+            <div class="icon" data-toggle="tooltip" title="Code Repository">
+              <a href="{{ project.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+            </div>
+            {% if project.github_stars %}
+            <span class="stars" data-toggle="tooltip" title="GitHub Stars">
+              <i class="fas fa-star"></i>
+              <span id="{{ project.github_stars }}-stars"></span>
+            </span>
+            {% endif %}
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </a>
 </div>
-
-<h2 style="text-align:center; margin-bottom: 2px">HelpQ</h2>
-
-<p style="text-align:center"><em><small>June 2019 to August 2019</small></em></p>
-<strong><em>HelpQ</em></strong> is a mobile Android app that I developed in a team at my Facebook
-University for Engineering internship. With HelpQ, students can easily ask questions that instructors
-can view in an elegant, organized queue. Features include:
-
-<ul style="list-style-type: disc">
-    <li><strong>Parse backend</strong> to store user data</li>
-    <li>Students can submit questions and instructors can reply with answers</li>
-    <li>Previous questions and answers saved on a <strong>searchable</strong> board tab for quick lookup</li>
-    <li><strong>Notifications</strong> remind students when instructors create workshops</li>
-</ul>
-<p style="text-align:center; font-size: 16px">
-    <a href="https://juliekallini.com/projects/2019/08/16/helpq/">
-        Read more...
-    </a>
-</p>
-
-<img class="center-image" src='images/helpq_logo.png' alt="HelpQ" width="300px"/>
-
-<table class="borderless">
-    <tbody>
-      <tr>
-        <td class="borderless">
-            <div class="overlay-image">
-                <a href="https://juliekallini.com/projects/2019/08/16/helpq/">
-                    <img src="images/helpq_screenshot_1.png" width="100%" class="center">
-                    <div class="hover">
-                        <div class="text">Read More</div>
-                    </div>
-                </a>
-            </div>
-        </td>
-
-        <td class="borderless">
-            <div class="overlay-image">
-                <a href="https://github.com/FBUAndroidTeam/HelpQ">
-                    <img src="images/helpq_screenshot_3.png" width="100%" class="center">
-                    <div class="hover">
-                        <div class="text">View on Github</div>
-                    </div>
-                </a>
-            </div>
-        </td>
-
-        <td class="borderless">
-            <div class="overlay-image">
-                <a href="https://raw.githubusercontent.com/FBUAndroidTeam/HelpQ/master/helpq_walkthrough1.gif">
-                    <img src="images/helpq_screenshot_2.png" width="100%" class="center">
-                    <div class="hover">
-                        <div class="text">Quick Demo</div>
-                    </div>
-                </a>
-            </div>
-        </td>
-        </tr>
-    </tbody>
-</table>
-
-<br/>
-
-<h2 style="text-align:center; margin-bottom: 2px">Maze Adventures</h2>
-
-<p style="text-align:center"><em><small>June 2018 to July 2018</small></em></p>
-<strong><em>Maze Adventures</em></strong> is a Unity3D game that I developed at
-Princeton Summer Programming Experiences. Features include:
-
-<ul style="list-style-type: disc">
-    <li><strong>Unique, randomized mazes</strong> generated at runtime using 
-        recursive division maze generation algorithm</li>
-    <li>Combat with enemy AI</li>
-    <li>Items distributed across levels using <strong>Poisson disk sampling</strong></li>
-</ul>
-<p style="text-align:center; font-size: 16px">
-    <a href="https://juliekallini.com/projects/2018/07/20/maze-adventures/">
-        Read more...
-    </a>
-</p>
-<table class="borderless">
-    <tbody>
-      <tr>
-        <td rowspan="4" colspan="2">
-            <div class="overlay-image">
-                <a href="https://juliekallini.com/projects/2018/07/20/maze-adventures/">
-                    <img class="image" src='images/maze_screenshot_1.png' alt="Maze Adventures" />
-                    <div class="hover">
-                    <div class="text">Read More</div>
-                    </div>
-                </a>
-            </div>
-        </td>
-        <td rowspan="4" colspan="2">
-            <div class="overlay-image">
-                <a href="https://juliekallini.com/MazeAdventures/">
-                    <img class="image" src='images/maze_screenshot_2.png' alt="Maze Adventures" />
-                    <div class="hover">
-                    <div class="text">Play Online</div>
-                    </div>
-                </a>
-            </div>
-        </td>
-        <td align="center">
-            <img src="images/key.png" width="90%" class="center-image">
-        </td>
-      </tr>
-      <tr>
-        <td align="center">
-            <img src="images/heart.png" width="70%" class="center-image">
-        </td>
-      </tr>
-      <tr>
-        <td align="center">
-            <img src="images/bomb.png" width="70%" class="center-image">
-        </td>
-        </tr>
-    </tbody>
-</table>
-
-<br/>

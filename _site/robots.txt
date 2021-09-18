@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: /al-folio/sitemap.xml
