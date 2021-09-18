@@ -3,11 +3,11 @@ name: Deploy
 on:
   push:
     branches:
-      - master
+      - design-02
       - main
   pull_request:
     branches:
-      - master
+      - design-02
       - main
 
 jobs:
