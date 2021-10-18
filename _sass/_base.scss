@@ -4,16 +4,29 @@
 
 // Typography
 
-p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+div,
+span,
+strong {
   color: var(--global-text-color);
 }
 
-a, table.table a {
+a,
+table.table a {
   color: var(--global-theme-color);
+
   &:hover {
     color: var(--global-theme-color);
     text-decoration: underline;
   }
+
   &:hover:after :not(.nav-item.dropdown) {
     width: 100%;
   }
@@ -44,7 +57,8 @@ blockquote {
 }
 
 // Citation
-.citation, .citation-number {
+.citation,
+.citation-number {
   color: var(--global-theme-color);
 }
 
@@ -58,6 +72,7 @@ blockquote {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
+
     p {
       display: inline-block;
       margin: 0;
@@ -68,8 +83,11 @@ blockquote {
 @media (min-width: 576px) {
   .profile {
     width: 30%;
+
     .address {
-      p { display: block; }
+      p {
+        display: block;
+      }
     }
   }
 }
@@ -77,8 +95,10 @@ blockquote {
 .post-description {
   margin-bottom: 2rem;
   font-size: 0.875rem;
+
   a {
     color: inherit;
+
     &:hover {
       color: var(--global-theme-color);
       text-decoration: none;
@@ -95,54 +115,68 @@ blockquote {
   background-color: var(--global-bg-color);
   opacity: 0.95;
 }
+
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
+
   a:not(.active) {
     color: var(--global-text-color);
   }
+
   a:hover {
     color: var(--global-hover-color);
   }
 }
+
 .dropdown-item {
   color: var(--global-text-color);
-    &:hover {
-      color: var(--global-hover-color);
-      background-color: var(--global-bg-color);
-    }
+
+  &:hover {
+    color: var(--global-hover-color);
+    background-color: var(--global-bg-color);
+  }
 }
+
 .navbar.navbar-light {
   a {
     &:hover {
       text-decoration: none;
     }
   }
+
   .navbar-brand {
     color: var(--global-text-color);
   }
+
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+
     &:hover {
       color: var(--global-hover-color);
     }
   }
+
   .navbar-nav .nav-item.active>.nav-link {
-      background-color: inherit;
-      font-weight: bolder;
-      color: var(--global-theme-color);
-      &:hover {
-        color: var(--global-hover-color);
-      }
+    background-color: inherit;
+    font-weight: bolder;
+    color: var(--global-theme-color);
+
+    &:hover {
+      color: var(--global-hover-color);
+    }
   }
+
   .navbar-brand.social {
     padding-bottom: 0;
     padding-top: 0;
     font-size: 1.7rem;
+
     a {
       i::before {
         color: var(--global-theme-color);
         -webkit-transition: all 0.2s ease-in-out;
       }
+
       &:hover {
         i::before {
           color: var(--global-hover-color);
@@ -162,13 +196,16 @@ blockquote {
     margin-bottom: 4px;
     transition: all 0.2s;
   }
+
   .top-bar {
     transform: rotate(45deg);
     transform-origin: 10% 10%;
   }
+
   .middle-bar {
     opacity: 0;
   }
+
   .bottom-bar {
     transform: rotate(-45deg);
     transform-origin: 10% 90%;
@@ -179,9 +216,11 @@ blockquote {
   .top-bar {
     transform: rotate(0);
   }
+
   .middle-bar {
     opacity: 1;
   }
+
   .bottom-bar {
     transform: rotate(0);
   }
@@ -196,20 +235,30 @@ blockquote {
 }
 
 .news table th {
-  color: var(--global-text-color);
+  height: 3rem;
+  width: 6rem;
+  margin-bottom: 0.5rem;
+
+  .badge {
+    display: inline-block;
+    background-color: var(--global-theme-color);
+  }
 }
 
 // Social (bottom)
 
 .social {
   text-align: center;
+
   .contact-icons {
     font-size: 4rem;
+
     a {
       i::before {
         color: var(--global-text-color);
         -webkit-transition: all 0.2s ease-in-out;
       }
+
       &:hover {
         i::before {
           color: var(--global-theme-color);
@@ -217,6 +266,7 @@ blockquote {
       }
     }
   }
+
   .contact-note {
     font-size: 0.8rem;
   }
@@ -227,13 +277,16 @@ blockquote {
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
+
   .container {
     color: var(--global-footer-text-color);
     padding-top: 9px;
     padding-bottom: 8px;
   }
+
   a {
     color: var(--global-footer-link-color);
+
     &:hover {
       color: var(--global-theme-color);
       text-decoration: none;
@@ -256,6 +309,7 @@ footer.sticky-bottom {
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 5rem;
+
   h1 {
     color: var(--global-theme-color);
     font-size: 5rem;
@@ -266,19 +320,23 @@ footer.sticky-bottom {
   margin: 0;
   margin-bottom: 40px;
   padding: 0;
+
   li {
     border-bottom: 1px solid $grey-color-light;
     list-style: none;
     padding-top: 2rem;
     padding-bottom: 2rem;
+
     .post-meta {
       color: var(--global-text-color-light);
       font-size: 0.875rem;
       margin-bottom: 0;
     }
+
     a {
       color: var(--global-text-color);
       text-decoration: none;
+
       &:hover {
         color: var(--global-theme-color);
       }
@@ -290,13 +348,16 @@ footer.sticky-bottom {
   .page-item {
     .page-link {
       color: var(--global-text-color);
+
       &:hover {
         color: $black-color;
       }
     }
+
     &.active .page-link {
       color: $white-color;
       background-color: var(--global-theme-color);
+
       &:hover {
         background-color: var(--global-theme-color);
       }
@@ -332,6 +393,7 @@ footer.sticky-bottom {
     img {
       width: 100%;
     }
+
     .card-title {
       color: $black-color;
     }
@@ -367,6 +429,7 @@ footer.sticky-bottom {
 
 .publications {
   margin-top: 2rem;
+
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;
@@ -374,12 +437,15 @@ footer.sticky-bottom {
     margin-top: 1em;
     margin-bottom: 1em;
   }
+
   h2 {
     margin-bottom: 1rem;
+
     span {
       font-size: 1.5rem;
     }
   }
+
   h2.year {
     color: $grey-color-light;
     border-top: 1px solid $grey-color-light;
@@ -388,6 +454,7 @@ footer.sticky-bottom {
     margin-bottom: -2rem;
     text-align: right;
   }
+
   ol.bibliography {
     list-style: none;
     padding: 0;
@@ -395,42 +462,52 @@ footer.sticky-bottom {
 
     li {
       margin-bottom: 1rem;
+
       .abbr {
         height: 2rem;
         margin-bottom: 0.5rem;
+
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
           padding-left: 1rem;
           padding-right: 1rem;
+
           a {
             color: white;
+
             &:hover {
               text-decoration: none;
             }
           }
         }
+
         .award {
           color: var(--global-theme-color) !important;
           border: 1px solid var(--global-theme-color);
         }
       }
+
       .title {
         font-weight: bolder;
       }
+
       .author {
         a {
           border-bottom: 1px dashed var(--global-theme-color);
+
           &:hover {
-              border-bottom-style: solid;
-              text-decoration: none;
+            border-bottom-style: solid;
+            text-decoration: none;
           }
         }
-        > em {
+
+        >em {
           border-bottom: 1px solid;
           font-style: normal;
         }
       }
+
       .links {
         a.btn {
           color: var(--global-text-color);
@@ -439,12 +516,14 @@ footer.sticky-bottom {
           padding-right: 1rem;
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
+
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
           }
         }
       }
+
       .hidden {
         font-size: 0.875rem;
         max-height: 0px;
@@ -460,12 +539,14 @@ footer.sticky-bottom {
           line-height: 1.4em;
           margin: 10px;
         }
+
         pre {
           font-size: 1em;
           line-height: 1.4em;
           padding: 10px;
         }
       }
+
       .hidden.open {
         max-height: 100em;
         -webkit-transition: 0.15s ease;
@@ -474,9 +555,11 @@ footer.sticky-bottom {
         -o-transition: 0.15s ease;
         transition: all 0.15s ease;
       }
+
       div.abstract.hidden {
         border: dashed 1px var(--global-bg-color);
       }
+
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
       }
@@ -494,7 +577,9 @@ pre {
   background-color: var(--global-code-bg-color);
   border-radius: 6px;
   padding: 6px 12px;
-  pre, code {
+
+  pre,
+  code {
     background-color: transparent;
     border-radius: 0;
     padding: 0;
