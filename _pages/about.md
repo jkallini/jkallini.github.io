@@ -3,8 +3,8 @@ layout: about
 title: about
 permalink: /
 description: >
-  <b>Software Engineer</b> @ <a href="https://about.facebook.com/">Facebook</a>
-  • <b>Previously:</b> <a href="https://www.cs.princeton.edu/">Princeton CS</a>
+  <b>Software Engineer</b> @ <a href="https://about.facebook.com/" target="\_blank">Meta</a>
+  • <b>Previously:</b> <a href="https://www.cs.princeton.edu/" target="\_blank">Princeton CS</a>
 
 profile:
   align: right
@@ -19,11 +19,11 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-At Facebook, I use machine learning and content understanding techniques
+At Meta (Facebook), I use machine learning and content understanding techniques
 to provide more responsible and privacy-aware advertisements across the
 family of apps.
 
-Before joining Facebook, I graduated from Princeton University
+Before joining Meta, I graduated from Princeton University
 with a B.S.E. in
 [Computer Science](https://www.cs.princeton.edu/){:target="\_blank"} and
 a minor in [Linguistics](https://linguistics.princeton.edu/){:target="\_blank"}.
