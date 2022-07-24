@@ -1,10 +1,10 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-description: >
-  <b>Software Engineer</b> @ <a href="https://about.facebook.com/" target="\_blank">Meta</a>
-  • <b>Previously:</b> <a href="https://www.cs.princeton.edu/" target="\_blank">Princeton CS</a>
+subtitle: >
+ <b>Software Engineer</b> @ <a href="https://about.facebook.com/" target="\_blank">Meta</a>
+ • <b>Previously:</b> <a href="https://www.cs.princeton.edu/" target="\_blank">Princeton CS</a>
 
 profile:
   align: right
@@ -33,7 +33,7 @@ the Computer Science department.
 At Princeton, I was fortunate to be advised by [Christiane Fellbaum](https://www.cs.princeton.edu/people/profile/fellbaum){:target="\_blank"}
 while completing NLP and computational linguistics research. My senior thesis, which explored
 the language phenomenon of coordination, won the Outstanding Senior Thesis Prize.
-I also worked closely with [Srinivas Bangalore](https://sbangalore.com/){:target="\_blank"}
+I also worked closely with [Srinivas Bangalore](https://www.linkedin.com/in/srinivas-bangalore-3b8868/){:target="\_blank"}
 as a teaching assistant for his Machine Translation class and won the
 Outstanding Teaching Award for my work.
 

@@ -1,0 +1,9 @@
+---
+layout: cv
+permalink: /cv/
+title: CV
+nav: true
+nav_order: 4
+cv_pdf: JulieKalliniCV.pdf
+description: Last updated July 23, 2022.
+---
