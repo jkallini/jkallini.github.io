@@ -5,8 +5,8 @@ permalink: /painting/
 description: >
   A dedicated portfolio for my painting hobby.
 nav: true
-nav_order: 3
-display_categories: [work]
+nav_order: 4
+display_categories: []
 horizontal: false
 ---
 

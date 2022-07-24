@@ -5,7 +5,7 @@ title: Publications
 description: My publications, sorted in reversed chronological order.
 years: [2022, 2021]
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
