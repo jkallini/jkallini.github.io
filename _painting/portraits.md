@@ -46,7 +46,7 @@ importance: 1
         <div class="caption">
             <em>Heisenberg</em><br/>
             Acrylic paint on 12” x 16” canvas.<br/>
-            July 27, 2018.
+            July 25, 2018.
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
