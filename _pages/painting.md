@@ -4,6 +4,8 @@ title: Painting
 permalink: /painting/
 description: >
   A dedicated portfolio for my painting hobby.
+  See my <a href='https://www.instagram.com/juliekallini.art/'>Instagram</a>
+  for updates and progress videos.
 nav: true
 nav_order: 3
 display_categories: [work]
