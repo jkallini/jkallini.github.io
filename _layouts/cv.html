@@ -9,7 +9,15 @@ layout: default
             <p class="post-description">{{ page.description }}</p>
           </header>
 
-          <article>
+          <div style="margin-left: auto;margin-right: auto;">
+            <object data="..\assets\pdf\JulieKalliniCV.pdf" type="application/pdf" width="100%" height="1175px">
+                <embed src="..\assets\pdf\JulieKalliniCV.pdf">
+                    <p>This browser does not support PDFs. Please download the PDF to view it: <a href="assets\pdf\JulieKalliniCV.pdf">Download PDF</a>.</p>
+                </embed>
+            </object>
+        </div>
+
+          <!-- <article>
             <div class="cv">
               {% for entry in site.data.cv %}
                 <div class="card mt-3 p-3">
@@ -30,6 +38,6 @@ layout: default
                 </div>
               {% endfor %}
               </div>
-          </article>
+          </article> -->
 
         </div>
