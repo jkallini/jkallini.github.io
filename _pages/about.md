@@ -38,5 +38,8 @@ I also worked closely with [Srinivas Bangalore](https://www.linkedin.com/in/srin
 as a teaching assistant for his Machine Translation class and won the
 Outstanding Teaching Award for my work.
 
+In my free time, I enjoy acrylic painting. Despite being self-taught, I
+maintain a portfolio of my still life and portrait paintings on this site. 🎨
+
 I'm always happy to collaborate or just chat about NLP and linguistics! \\
 You can reach me at **juliekallini :at: gmail :dot: com**.
