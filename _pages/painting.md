@@ -3,7 +3,8 @@ layout: page
 title: Painting
 permalink: /painting/
 description: >
-  A dedicated portfolio for my painting hobby.
+  A dedicated portfolio for my painting hobby. Despite being self-taught, I
+  maintain a portfolio of my still life and portrait paintings on this site.
   See my <a href='https://www.instagram.com/juliekallini.art/'>Instagram</a>
   for updates and progress videos.
 nav: true

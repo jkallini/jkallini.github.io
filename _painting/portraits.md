@@ -34,14 +34,6 @@ importance: 1
 </div>
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/portraits/phantom.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-        <div class="caption">
-            <em>Music of the Night</em><br/>
-            Acrylic paint on 20” x 16” canvas.<br/>
-            July 9, 2021.
-        </div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/portraits/walter_white.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
             <em>Heisenberg</em><br/>
