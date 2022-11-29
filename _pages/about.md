@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: >
- /'dʒuli kə'lini/ • <b>Software Engineer</b> @ <a href="https://about.facebook.com/" target="\_blank">Meta</a>
+ /kə'lini/ • <b>Software Engineer</b> @ <a href="https://about.facebook.com/" target="\_blank">Meta</a>
  • <b>Previously:</b> <a href="https://www.cs.princeton.edu/" target="\_blank">Princeton CS</a>
 
 profile:
