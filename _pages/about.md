@@ -4,6 +4,7 @@ title: About
 permalink: /
 subtitle: >
  /kə'lini/ • <b>Software Engineer</b> @ <a href="https://about.facebook.com/" target="\_blank">Meta</a>
+ • <b>Instructor/TA</b> @ <a href="https://corise.com/" target="\_blank">CoRise</a>
  • <b>Previously:</b> <a href="https://www.cs.princeton.edu/" target="\_blank">Princeton CS</a>
 
 profile:
@@ -22,7 +23,9 @@ nav_order: 1
 
 At Meta (Facebook), I use machine learning and content understanding techniques
 to provide more responsible and privacy-aware advertisements across the
-family of apps.
+family of apps. I also teach machine learning with
+[Andrew Maas](https://www.linkedin.com/in/andrewleemaas/){:target="\_blank"}
+as an instructor for CoRise.
 
 Before joining Meta, I graduated from Princeton University
 with a B.S.E. in
@@ -38,7 +41,4 @@ I also worked closely with [Srinivas Bangalore](https://www.linkedin.com/in/srin
 as a teaching assistant for his Machine Translation class and won the
 Outstanding Teaching Award for my work.
 
-In my free time, I enjoy acrylic painting! 🎨
-
-I'm always happy to collaborate or just chat about NLP and linguistics! \\
-You can reach me at **juliekallini :at: gmail :dot: com**.
+In my free time, I enjoy [acrylic painting](https://juliekallini.com/painting/)! 🎨

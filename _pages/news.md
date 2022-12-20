@@ -6,5 +6,6 @@ description: All of my updates and announcements to date.
 nav: true
 nav_order: 2
 ---
+<hr/>
 
 {% include news.html %}

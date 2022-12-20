@@ -46,7 +46,7 @@ importance: 1
         <div class="caption">
             <em>Kurt Cobain</em><br/>
             Watercolors on 24” x 24” canvas.<br/>
-            June 6, 2016.
+            June 6, 2016 (age 16).
         </div>
     </div>
 </div>

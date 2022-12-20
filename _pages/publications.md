@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: My publications, sorted in reversed chronological order.
+description: My publications, sorted in reverse chronological order.
 years: [2023, 2022, 2021]
 nav: true
 nav_order: 4
