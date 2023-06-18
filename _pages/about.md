@@ -3,9 +3,9 @@ layout: about
 title: About
 permalink: /
 subtitle: >
- /kə'lini/ • <b>Software Engineer</b> @ <a href="https://about.facebook.com/" target="\_blank">Meta</a>
- • <b>Instructor/TA</b> @ <a href="https://corise.com/" target="\_blank">CoRise</a>
- • <b>Previously:</b> <a href="https://www.cs.princeton.edu/" target="\_blank">Princeton CS</a>
+ /kə'lini/ • <b>CS Ph.D.</b> @ <a href="https://nlp.stanford.edu/" target="\_blank">Stanford NLP</a>
+ • <b>ML Instructor</b> @ <a href="https://corise.com/" target="\_blank">CoRise</a>
+ • <b>Previously:</b> <a href="https://about.meta.com/" target="\_blank">Meta</a>, <a href="https://www.cs.princeton.edu/" target="\_blank">Princeton CS</a>
 
 profile:
   align: right
@@ -21,24 +21,23 @@ social: false  # includes social icons at the bottom of the page
 nav_order: 1
 ---
 
-At Meta (Facebook), I use machine learning and content understanding techniques
-to provide more responsible and privacy-aware advertisements across the
-family of apps. I also teach machine learning with
-[Andrew Maas](https://www.linkedin.com/in/andrewleemaas/){:target="\_blank"}
-as an instructor for CoRise.
+I am an incoming Computer Science Ph.D. student at Stanford University, where
+I will be joining the [Natural Language Processing Group](https://nlp.stanford.edu/).
+My Ph.D. is generously supported by a [National Science Foundation Graduate Research Fellowship](https://www.nsfgrfp.org/),
+a [Stanford School of Engineering Graduate Fellowship](https://vpge.stanford.edu/fellowships-funding/sgf),
+and a [Stanford EDGE Fellowship](https://vpge.stanford.edu/fellowships-funding/enhancing-diversity-graduate).
 
-Before joining Meta, I graduated from Princeton University
-with a B.S.E. in
-[Computer Science](https://www.cs.princeton.edu/){:target="\_blank"} and
-a minor in [Linguistics](https://linguistics.princeton.edu/){:target="\_blank"}.
-I was honored to receive the Phillip Goldman ’86 Senior Prize, the top academic prize in
-the Computer Science department.
+Previously, I worked for nearly two years as a software engineer at Meta,
+where I used machine learning and content understanding techniques for
+privacy problems in advertisements.
 
-At Princeton, I was fortunate to be advised by [Christiane Fellbaum](https://www.cs.princeton.edu/people/profile/fellbaum){:target="\_blank"}
-while completing NLP and computational linguistics research. My senior thesis, which explored
-the language phenomenon of coordination, won the Outstanding Senior Thesis Prize.
-I also worked closely with [Srinivas Bangalore](https://www.linkedin.com/in/srinivas-bangalore-3b8868/){:target="\_blank"}
-as a teaching assistant for his Machine Translation class and won the
-Outstanding Teaching Award for my work.
+Before joining Meta, I graduated from Princeton University with a B.S.E. in
+Computer Science and a minor in Linguistics. I was fortunate to conduct NLP
+and computational linguistics research under the guidance of
+[Christiane Fellbaum](https://www.cs.princeton.edu/people/profile/fellbaum){:target="\_blank"}.
+My senior thesis, which explored the language phenomenon of coordination,
+won the Outstanding Senior Thesis Prize. I also received the
+Phillip Goldman ’86 Senior Prize, the CS department's top academic honor.
 
-In my free time, I enjoy [acrylic painting](https://juliekallini.com/painting/)! 🎨
+In my spare time, I teach [Applied Machine Learning](https://corise.com/course/applied-machine-learning)
+as an instructor for CoRise. I also enjoy [acrylic painting](https://juliekallini.com/painting/)! 🎨
