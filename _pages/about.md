@@ -21,9 +21,11 @@ social: false  # includes social icons at the bottom of the page
 nav_order: 1
 ---
 
-I am an incoming Computer Science Ph.D. student at Stanford University, where
-I will be joining the [Natural Language Processing Group](https://nlp.stanford.edu/).
-My Ph.D. is generously supported by a [National Science Foundation Graduate Research Fellowship](https://www.nsfgrfp.org/),
+I am a first-year Computer Science Ph.D. student at Stanford University, where
+I am a member of the [Natural Language Processing Group](https://nlp.stanford.edu/).
+I am grateful to be advised by [Chris Potts](https://web.stanford.edu/~cgpotts/). 
+My Ph.D. is generously supported by a
+[National Science Foundation Graduate Research Fellowship](https://www.nsfgrfp.org/),
 a [Stanford School of Engineering Graduate Fellowship](https://vpge.stanford.edu/fellowships-funding/sgf),
 and a [Stanford EDGE Fellowship](https://vpge.stanford.edu/fellowships-funding/enhancing-diversity-graduate).
 
