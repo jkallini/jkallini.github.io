@@ -23,7 +23,8 @@ nav_order: 1
 
 I am a first-year Computer Science Ph.D. student at Stanford University, where
 I am a member of the [Natural Language Processing Group](https://nlp.stanford.edu/).
-I am grateful to be advised by [Chris Potts](https://web.stanford.edu/~cgpotts/). 
+I am grateful to be rotating with [Chris Potts](https://web.stanford.edu/~cgpotts/)
+and [Dan Jurafsky](https://web.stanford.edu/~jurafsky/). 
 My Ph.D. is generously supported by a
 [National Science Foundation Graduate Research Fellowship](https://www.nsfgrfp.org/),
 a [Stanford School of Engineering Graduate Fellowship](https://vpge.stanford.edu/fellowships-funding/sgf),
