@@ -4,7 +4,7 @@ title: About
 permalink: /
 subtitle: >
  /kə'lini/ • <b>CS Ph.D.</b> @ <a href="https://nlp.stanford.edu/" target="\_blank">Stanford NLP</a>
- • <b>ML Instructor</b> @ <a href="https://corise.com/" target="\_blank">CoRise</a>
+ • <b>ML Instructor</b> @ <a href="https://uplimit.com/" target="\_blank">Uplimit</a>
  • <b>Previously:</b> <a href="https://about.meta.com/" target="\_blank">Meta</a>, <a href="https://www.cs.princeton.edu/" target="\_blank">Princeton CS</a>
 
 profile:
@@ -34,7 +34,7 @@ Previously, I worked for nearly two years as a software engineer at Meta,
 where I used machine learning and content understanding techniques for
 privacy problems in advertisements.
 
-Before joining Meta, I graduated from Princeton University with a B.S.E. in
+Before joining Meta, I graduated *summa cum laude* from Princeton University with a B.S.E. in
 Computer Science and a minor in Linguistics. I was fortunate to conduct NLP
 and computational linguistics research under the guidance of
 [Christiane Fellbaum](https://www.cs.princeton.edu/people/profile/fellbaum){:target="\_blank"}.
@@ -42,5 +42,5 @@ My senior thesis, which explored the language phenomenon of coordination,
 won the Outstanding Senior Thesis Prize. I also received the
 Phillip Goldman ’86 Senior Prize, the CS department's top academic honor.
 
-In my spare time, I teach [Applied Machine Learning](https://corise.com/course/applied-machine-learning)
-as an instructor for CoRise. I also enjoy [acrylic painting](https://juliekallini.com/painting/)! 🎨
+In my spare time, I teach [Applied Machine Learning](https://uplimit.com/course/applied-machine-learning)
+as an instructor for Uplimit. I also enjoy [acrylic painting](https://juliekallini.com/painting/)! 🎨

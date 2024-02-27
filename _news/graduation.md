@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Graduated Summa Cum Laude from Princeton University! 🎓
+title: Graduated from Princeton University! 🎓
 date: 2021-05-24 16:11:00-0400
 inline: false
 ---
 
-Last week, I graduated Summa Cum Laude from Princeton University with a
+Last week, I graduated *summa cum laude* from Princeton University with a
 B.S.E. in Computer Science and a minor in Linguistics. 
 
 ***
