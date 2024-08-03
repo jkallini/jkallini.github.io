@@ -44,6 +44,11 @@ layout: default
           <!-- News -->
           {%- include news.html %}
           {%- endif %}
+          <br>
+          {% if page.talks -%}
+          <!-- Talks -->
+          {%- include talks.html %}
+          {%- endif %}
           {% if page.selected_papers -%}
             <!-- Selected papers -->
             {%- include selected_papers.html %}
