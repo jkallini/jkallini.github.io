@@ -127,6 +127,12 @@
             {{ periodical | strip }}
           </div>
         {%- endif %}
+
+          <div>
+            {%- if entry.award %}
+            (<b style="color:#dc143c;">{{ entry.award }}</b>)
+            {%- endif %}
+          </div>
         
           <!-- Links/Buttons -->
           <div class="links">

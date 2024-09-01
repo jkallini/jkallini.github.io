@@ -59,16 +59,28 @@
     abstract = "Verbs like <em>make</em>, <em>have</em>, and <em>get</em> present challenges for applications requiring automatic word sense discrimination. These verbs are both highly frequent and polysemous, with semantically “full” readings, as in <em>make dinner</em>, and “light” readings, as in <em>make a request</em>. Lexical resources like WordNet encode dozens of senses, making discrimination difficult and inviting proposals for reducing the number of entries or grouping them into coarser-grained supersenses. We propose a data-driven, linguistically-based approach to establishing a motivated sense inventory, focusing on <em>make</em> to establish a proof of concept. From several large, syntactically annotated corpora, we extract nouns that are complements of the verb <em>make</em>, and group them into clusters based on their Word2Vec semantic vectors. We manually inspect, for each cluster, the words with vectors closest to the centroid as well as a random sample of words within the cluster. The results show that the clusters reflect an intuitively plausible sense discrimination of <em>make</em>. As an evaluation, we test whether words within a given cluster cooccur in coordination phrases, such as <em>apples and oranges</em>, as prior work has shown that such conjoined nouns are semantically related. Conversely, noun complements from different clusters are less likely to be conjoined. Thus, coordination provides a similarity metric independent of the contextual embeddings used for clustering. Our results pave the way for a WordNet sense inventory that, while not inconsistent with the present one, would reduce it significantly and hold promise for improved automatic word sense discrimination."
 }
 
-@misc{kallini2024mission,
-      title={Mission: Impossible Language Models}, 
-      author={Julie Kallini and Isabel Papadimitriou and Richard Futrell and Kyle Mahowald and Christopher Potts},
-      year={2024},
-      eprint={2401.06416},
-      arxiv={2401.06416},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      abbr={Preprint},
-      bibtex_show={true},
-      pdf={https://arxiv.org/pdf/2401.06416.pdf},
-      abstract = "Chomsky and others have very directly claimed that large language models (LLMs) are equally capable of learning languages that are possible and impossible for humans to learn. However, there is very little published experimental evidence to support such a claim. Here, we develop a set of synthetic impossible languages of differing complexity, each designed by systematically altering English data with unnatural word orders and grammar rules. These languages lie on an impossibility continuum: at one end are languages that are inherently impossible, such as random and irreversible shuffles of English words, and on the other, languages that may not be intuitively impossible but are often considered so in linguistics, particularly those with rules based on counting word positions. We report on a wide range of evaluations to assess the capacity of GPT-2 small models to learn these uncontroversially impossible languages, and crucially, we perform these assessments at various stages throughout training to compare the learning process for each language. Our core finding is that GPT-2 struggles to learn impossible languages when compared to English as a control, challenging the core claim. More importantly, we hope our approach opens up a productive line of inquiry in which different LLM architectures are tested on a variety of impossible languages in an effort to learn more about how LLMs can be used as tools for these cognitive and typological investigations."
+@inproceedings{kallini-etal-2024-mission,
+    title = "Mission: Impossible Language Models",
+    author = "Kallini, Julie  and
+      Papadimitriou, Isabel  and
+      Futrell, Richard  and
+      Mahowald, Kyle  and
+      Potts, Christopher",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.acl-long.787",
+    pages = "14691--14714",
+    abbr={ACL},
+    bibtex_show={true},
+    html={https://aclanthology.org/2024.acl-long.787/},
+    pdf={https://aclanthology.org/2024.acl-long.787.pdf},
+    arxiv={2401.06416},
+    award={Best Paper Award},
+    abstract = "Chomsky and others have very directly claimed that large language models (LLMs) are equally capable of learning languages that are possible and impossible for humans to learn. However, there is very little published experimental evidence to support such a claim. Here, we develop a set of synthetic impossible languages of differing complexity, each designed by systematically altering English data with unnatural word orders and grammar rules. These languages lie on an impossibility continuum: at one end are languages that are inherently impossible, such as random and irreversible shuffles of English words, and on the other, languages that may not be intuitively impossible but are often considered so in linguistics, particularly those with rules based on counting word positions. We report on a wide range of evaluations to assess the capacity of GPT-2 small models to learn these uncontroversially impossible languages, and crucially, we perform these assessments at various stages throughout training to compare the learning process for each language. Our core finding is that GPT-2 struggles to learn impossible languages when compared to English as a control, challenging the core claim. More importantly, we hope our approach opens up a productive line of inquiry in which different LLM architectures are tested on a variety of impossible languages in an effort to learn more about how LLMs can be used as tools for these cognitive and typological investigations.",
 }
