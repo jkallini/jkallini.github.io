@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024-5-16 07:59:00-0400
+date: 2024-8-14 07:59:00-0400
 inline: true
 ---
 
-[Mission: Impossible Language Models](https://arxiv.org/abs/2401.06416){:target="\_blank"} has been accepted to ACL 2024! See you in Bangkok 🇹🇭
+[Mission: Impossible Language Models](https://arxiv.org/abs/2401.06416){:target="\_blank"} won [**Best Paper Award**](https://x.com/JulieKallini/status/1823900793990471748){:target="\_blank"} at ACL 2024! 🎉

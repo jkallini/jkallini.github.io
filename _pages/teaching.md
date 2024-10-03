@@ -8,13 +8,13 @@ nav_order: 5
 ---
 
 <hr/>
-**Co-Instructor**, *[Applied Machine Learning](https://corise.com/course/applied-machine-learning)*<br/>
-CoRise<br/>
+**Co-Instructor**, *[Applied Machine Learning](https://uplimit.com/course/applied-machine-learning)*<br/>
+Uplimit<br/>
 Sep 2022--Present<br/>
 Instructor: Dr. Andrew Maas
 
-**Teaching Assistant**, *[Applied Machine Learning](https://corise.com/course/applied-machine-learning)*<br/>
-CoRise<br/>
+**Teaching Assistant**, *[Applied Machine Learning](https://uplimit.com/course/applied-machine-learning)*<br/>
+Uplimit<br/>
 Feb 2022--Sep 2022<br/>
 Instructor: Dr. Andrew Maas
 
