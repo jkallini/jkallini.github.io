@@ -17,3 +17,15 @@
 "Futrell":
   - firstname: ["Richard", "R."]
     url: https://sites.socsci.uci.edu/~rfutrell/
+
+"Murty":
+  - firstname: ["Shikhar", "S."]
+    url: https://murtyshikhar.github.io/
+
+"Manning":
+  - firstname: ["Christopher D.", "C."]
+    url: https://nlp.stanford.edu/~manning/
+
+"Csordás":
+  - firstname: ["Róbert", "R."]
+    url: https://robertcsordas.github.io/
