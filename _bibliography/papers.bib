@@ -13,7 +13,6 @@
     url = "https://aclanthology.org/2021.findings-emnlp.335",
     doi = "10.18653/v1/2021.findings-emnlp.335",
     pages = "3998--4008",
-    html={https://aclanthology.org/2021.findings-emnlp.335/},
     abbr={EMNLP},
     bibtex_show={true},
     slides={emnlp2021_slides.pdf},
@@ -38,8 +37,7 @@
   abbr={TSD},
   slides={tsd2022_slides.pdf},
   bibtex_show={true},
-  pdf={TSD-paper-2022.pdf},
-  html={https://link.springer.com/chapter/10.1007/978-3-031-16270-1_6},
+  pdf={https://juliekallini.com/assets/pdf/TSD-paper-2022.pdf},
   abstract="Coordination is a linguistic phenomenon where two or more terms or phrases, called conjuncts, are conjoined by a coordinating conjunction, such as and, or, or but. Well-formed coordination structures seem to require that the conjuncts are semantically similar or related. In this paper, we utilize English corpus data to examine the semantic constraints on syntactically like coordinations, which link constituents with the same lexical or syntactic categories. We examine the extent to which these semantic constraints depend on the type of conjunction or on the lexical or syntactic category of the conjuncts. We employ two distinct, independent metrics to measure the semantic similarity of conjuncts: WordNet relations and semantic word embeddings. Our results indicate that both measures of similarity have varying distributions depending on the particular conjunction and the conjuncts' lexical or syntactic categories.",
   isbn="978-3-031-16270-1"
 }
@@ -54,7 +52,6 @@
     publisher = "Global WordNet Association",
     abbr={GWC},
     bibtex_show={true},
-    html = {https://aclanthology.org/2023.gwc-1.3/},
     pdf={https://aclanthology.org/2023.gwc-1.3.pdf},
     abstract = "Verbs like <em>make</em>, <em>have</em>, and <em>get</em> present challenges for applications requiring automatic word sense discrimination. These verbs are both highly frequent and polysemous, with semantically “full” readings, as in <em>make dinner</em>, and “light” readings, as in <em>make a request</em>. Lexical resources like WordNet encode dozens of senses, making discrimination difficult and inviting proposals for reducing the number of entries or grouping them into coarser-grained supersenses. We propose a data-driven, linguistically-based approach to establishing a motivated sense inventory, focusing on <em>make</em> to establish a proof of concept. From several large, syntactically annotated corpora, we extract nouns that are complements of the verb <em>make</em>, and group them into clusters based on their Word2Vec semantic vectors. We manually inspect, for each cluster, the words with vectors closest to the centroid as well as a random sample of words within the cluster. The results show that the clusters reflect an intuitively plausible sense discrimination of <em>make</em>. As an evaluation, we test whether words within a given cluster cooccur in coordination phrases, such as <em>apples and oranges</em>, as prior work has shown that such conjoined nouns are semantically related. Conversely, noun complements from different clusters are less likely to be conjoined. Thus, coordination provides a similarity metric independent of the contextual embeddings used for clustering. Our results pave the way for a WordNet sense inventory that, while not inconsistent with the present one, would reduce it significantly and hold promise for improved automatic word sense discrimination."
 }
@@ -72,6 +69,7 @@
     code = {https://github.com/jkallini/mrt5},
     url={https://arxiv.org/abs/2410.20771},
     arxiv={2410.20771},
+    tweet={https://x.com/JulieKallini/status/1851278833061704170},
     abstract = "Models that rely on subword tokenization have significant drawbacks, such as sensitivity to character-level noise like spelling errors and inconsistent compression rates across different languages and scripts. While character- or byte-level models like ByT5 attempt to address these concerns, they have not gained widespread adoption -- processing raw byte streams without tokenization results in significantly longer sequence lengths, making training and inference inefficient. This work introduces MrT5 (MergeT5), a more efficient variant of ByT5 that integrates a token deletion mechanism in its encoder to dynamically shorten the input sequence length. After processing through a fixed number of encoder layers, a learnt delete gate determines which tokens are to be removed and which are to be retained for subsequent layers. MrT5 effectively ``merges'' critical information from deleted tokens into a more compact sequence, leveraging contextual information from the remaining tokens. In continued pre-training experiments, we find that MrT5 can achieve significant gains in inference runtime with minimal effect on performance. When trained on English text, MrT5 demonstrates the capability to transfer its deletion feature zero-shot across several languages, with significant additional improvements following multilingual training. Furthermore, MrT5 shows comparable accuracy to ByT5 on downstream evaluations such as XNLI and character-level tasks while reducing sequence lengths by up to 80%. Our approach presents a solution to the practical limitations of existing byte-level models."
 }
 
@@ -94,9 +92,9 @@
     pages = "14691--14714",
     abbr={ACL},
     bibtex_show={true},
-    html={https://aclanthology.org/2024.acl-long.787/},
-    pdf={https://aclanthology.org/2024.acl-long.787.pdf},
+    tweet={https://x.com/JulieKallini/status/1746992945738526985},
     arxiv={2401.06416},
     award={Best Paper Award},
+    code={https://github.com/jkallini/mission-impossible-language-models},
     abstract = "Chomsky and others have very directly claimed that large language models (LLMs) are equally capable of learning languages that are possible and impossible for humans to learn. However, there is very little published experimental evidence to support such a claim. Here, we develop a set of synthetic impossible languages of differing complexity, each designed by systematically altering English data with unnatural word orders and grammar rules. These languages lie on an impossibility continuum: at one end are languages that are inherently impossible, such as random and irreversible shuffles of English words, and on the other, languages that may not be intuitively impossible but are often considered so in linguistics, particularly those with rules based on counting word positions. We report on a wide range of evaluations to assess the capacity of GPT-2 small models to learn these uncontroversially impossible languages, and crucially, we perform these assessments at various stages throughout training to compare the learning process for each language. Our core finding is that GPT-2 struggles to learn impossible languages when compared to English as a control, challenging the core claim. More importantly, we hope our approach opens up a productive line of inquiry in which different LLM architectures are tested on a variety of impossible languages in an effort to learn more about how LLMs can be used as tools for these cognitive and typological investigations.",
 }
