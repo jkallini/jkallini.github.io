@@ -24,7 +24,9 @@
           {{reference}}
         {%- else %}
           <!-- Title -->
-          <div class="title">{{entry.title}}</div>
+          <div class="title">
+            <a href="{% if entry.arxiv %}http://arxiv.org/abs/{{ entry.arxiv }}{% else %}{{ entry.pdf }}{% endif %}">{{ entry.title }}</a>
+          </div>
           <!-- Author -->
           <div class="author">
             {% assign author_array_size = entry.author_array | size %}
@@ -62,7 +64,7 @@
               {%- endif -%}
             
               {%- if author_is_self %}
-                <em>{{author.first}} {{author.last}}</em>
+                <strong>{{author.first}} {{author.last}}</strong>
               {%- else %}
                 {%- if coauthor_url -%}
                   <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
@@ -139,11 +141,11 @@
           {%- if entry.abstract %}
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
           {%- endif %}
-          {%- if entry.arxiv %}
-            <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
-          {%- endif %}
           {%- if entry.bibtex_show %}
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+          {%- endif %}
+          {%- if entry.arxiv %}
+            <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
           {%- endif %}
           {%- if entry.html %}
             <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
@@ -184,6 +186,9 @@
           {%- endif %}
           {%- if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+          {%- endif %}
+          {%- if entry.tweet %}
+            <a href="{{ entry.tweet }}" class="btn btn-sm z-depth-0" role="button">tweet</a>
           {%- endif %}
           </div>
 

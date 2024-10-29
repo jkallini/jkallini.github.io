@@ -559,6 +559,10 @@ footer.sticky-bottom {
     text-align: right;
   }
 
+  a em {
+    color: inherit;
+  }
+
   ol.bibliography {
     list-style: none;
     padding: 0;
@@ -600,6 +604,7 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+        font-size: 1.1rem;
       }
 
       .author {
