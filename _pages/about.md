@@ -4,7 +4,6 @@ title: About
 permalink: /
 subtitle: >
  /kə'lini/ • <b>CS Ph.D.</b> @ <a href="https://nlp.stanford.edu/" target="\_blank">Stanford NLP</a>
- • <b>ML Instructor</b> @ <a href="https://uplimit.com/" target="\_blank">Uplimit</a>
  • <b>Previously:</b> <a href="https://about.meta.com/" target="\_blank">Meta</a>, <a href="https://www.cs.princeton.edu/" target="\_blank">Princeton CS</a>
 
 profile:
@@ -17,6 +16,7 @@ profile:
 
 news: true  # includes a list of news items
 talks: true
+press: true
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 nav_order: 1

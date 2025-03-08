@@ -49,6 +49,10 @@ layout: default
           <!-- Talks -->
           {%- include talks.html %}
           {%- endif %}
+          {% if page.press -%}
+          <!-- Talks -->
+          {%- include press.html %}
+          {%- endif %}
           {% if page.selected_papers -%}
             <!-- Selected papers -->
             {%- include selected_papers.html %}

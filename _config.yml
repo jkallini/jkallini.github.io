@@ -124,6 +124,11 @@ collections:
       layout: post
     output: true
     permalink: /talks/:path/
+  press:
+    defaults:
+      layout: post
+    output: true
+    permalink: /press/:path/
   painting:
     output: true
     permalink: /painting/:path/
@@ -133,6 +138,9 @@ news_limit: #5 # leave blank to include all the news in the `_news` folder
 
 talks_scrollable: false # adds a vertical scroll bar if there are more than 3 news items
 talks_limit: 25 # leave blank to include all the news in the `_news` folder
+
+press_scrollable: false # adds a vertical scroll bar if there are more than 3 news items
+press_limit: 25 # leave blank to include all the news in the `_news` folder
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
