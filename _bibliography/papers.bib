@@ -56,6 +56,22 @@
     abstract = "Verbs like <em>make</em>, <em>have</em>, and <em>get</em> present challenges for applications requiring automatic word sense discrimination. These verbs are both highly frequent and polysemous, with semantically “full” readings, as in <em>make dinner</em>, and “light” readings, as in <em>make a request</em>. Lexical resources like WordNet encode dozens of senses, making discrimination difficult and inviting proposals for reducing the number of entries or grouping them into coarser-grained supersenses. We propose a data-driven, linguistically-based approach to establishing a motivated sense inventory, focusing on <em>make</em> to establish a proof of concept. From several large, syntactically annotated corpora, we extract nouns that are complements of the verb <em>make</em>, and group them into clusters based on their Word2Vec semantic vectors. We manually inspect, for each cluster, the words with vectors closest to the centroid as well as a random sample of words within the cluster. The results show that the clusters reflect an intuitively plausible sense discrimination of <em>make</em>. As an evaluation, we test whether words within a given cluster cooccur in coordination phrases, such as <em>apples and oranges</em>, as prior work has shown that such conjoined nouns are semantically related. Conversely, noun complements from different clusters are less likely to be conjoined. Thus, coordination provides a similarity metric independent of the contextual embeddings used for clustering. Our results pave the way for a WordNet sense inventory that, while not inconsistent with the present one, would reduce it significantly and hold promise for improved automatic word sense discrimination."
 }
 
+@inproceedings{kallini2025false,
+  title     = {False Friends Are <em>Not</em> Foes: Investigating Vocabulary Overlap in Multilingual Language Models},
+  author    = {Julie Kallini and Dan Jurafsky and Christopher Potts and Martijn Bartelds},
+  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2025},
+  month = nov,
+  year      = {2025},
+  publisher = "Association for Computational Linguistics",
+  url       = {https://arxiv.org/abs/2509.18750},
+  arxiv     = {2509.18750},
+  abbr      = {EMNLP},
+  bibtex_show={true},
+  code = {https://github.com/jkallini/false-friends},
+  tweet = {https://x.com/JulieKallini/status/1972689319388172669},
+  abstract  = "Subword tokenizers trained on multilingual corpora naturally produce overlapping tokens across languages. Does token overlap facilitate cross-lingual transfer or instead introduce interference between languages? Prior work offers mixed evidence, partly due to varied setups and confounders, such as token frequency or subword segmentation granularity. To address this question, we devise a controlled experiment where we train bilingual autoregressive models on multiple language pairs under systematically varied vocabulary overlap settings. Crucially, we explore a new dimension to understanding how overlap affects transfer: the semantic similarity of tokens shared across languages. We first analyze our models' hidden representations and find that overlap of any kind creates embedding spaces that capture cross-lingual semantic relationships, while this effect is much weaker in models with disjoint vocabularies. On XNLI and XQuAD, we find that models with overlap outperform models with disjoint vocabularies, and that transfer performance generally improves as overlap increases. Overall, our findings highlight the advantages of token overlap in multilingual models and show that substantial shared vocabulary remains a beneficial design choice for multilingual tokenizers.",
+}
+
 @inproceedings{kallini2025mrt,
     title={MrT5: Dynamic Token Merging for Efficient Byte-level Language Models}, 
     author={Julie Kallini and Shikhar Murty and Christopher D. Manning and Christopher Potts and Róbert Csordás},

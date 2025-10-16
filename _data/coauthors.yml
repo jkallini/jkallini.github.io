@@ -6,6 +6,10 @@
   - firstname: ["Christopher", "C."]
     url: https://web.stanford.edu/~cgpotts/
 
+"Jurafsky":
+  - firstname: ["Dan", "D."]
+    url: https://web.stanford.edu/~jurafsky/
+
 "Papadimitriou":
   - firstname: ["Isabel", "I."]
     url: https://nlp.stanford.edu/~isabelvp/
@@ -29,3 +33,7 @@
 "Csordás":
   - firstname: ["Róbert", "R."]
     url: https://robertcsordas.github.io/
+
+"Bartelds":
+  - firstname: ["Martijn", "M."]
+    url: https://martijnbartelds.nl/

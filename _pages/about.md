@@ -22,7 +22,7 @@ social: false  # includes social icons at the bottom of the page
 nav_order: 1
 ---
 
-I am a second-year Computer Science Ph.D. student at Stanford University, where
+I am a third-year Computer Science Ph.D. student at Stanford University, where
 I am a member of the [Natural Language Processing Group](https://nlp.stanford.edu/).
 I am grateful to be advised by [Chris Potts](https://web.stanford.edu/~cgpotts/)
 and [Dan Jurafsky](https://web.stanford.edu/~jurafsky/).
