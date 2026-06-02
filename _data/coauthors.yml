@@ -37,3 +37,27 @@
 "Bartelds":
   - firstname: ["Martijn", "M."]
     url: https://martijnbartelds.nl/
+
+"Pagnoni":
+  - firstname: ["Artidoro", "A."]
+    url: https://artidoro.github.io/
+
+"Limisiewicz":
+  - firstname: ["Tomasz", "T."]
+    url: https://tomlimi.github.io/
+
+"Ghosh":
+  - firstname: ["Gargi", "G."]
+    url: https://scholar.google.com/citations?user=k5akwCcAAAAJ&hl=en
+
+"Zettlemoyer":
+  - firstname: ["Luke", "L."]
+    url: https://homes.cs.washington.edu/~lsz/
+
+"Han":
+  - firstname: ["Xiaochuang", "X."]
+    url: https://xhan77.github.io/
+
+"Iyer":
+  - firstname: ["Srinivasan", "Srini", "S."]
+    url: https://sriniiyer.github.io/

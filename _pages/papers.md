@@ -3,7 +3,7 @@ layout: page
 permalink: /papers/
 title: Papers
 description: My publications and preprints, sorted in reverse chronological order.
-years: [2025, 2024, 2023, 2022, 2021]
+years: [2026, 2025, 2024, 2023, 2022, 2021]
 nav: true
 nav_order: 4
 ---
