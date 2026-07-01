@@ -22,9 +22,9 @@ social: false  # includes social icons at the bottom of the page
 nav_order: 1
 ---
 
-I am a third-year Computer Science Ph.D. student at Stanford University, where
-I am a member of the [Natural Language Processing Group](https://nlp.stanford.edu/).
-I am grateful to be advised by [Chris Potts](https://web.stanford.edu/~cgpotts/)
+I am a Computer Science Ph.D. student at Stanford University and a member
+of the [Stanford Natural Language Processing Group](https://nlp.stanford.edu/).
+I am grateful to have two wonderful advisors, [Chris Potts](https://web.stanford.edu/~cgpotts/)
 and [Dan Jurafsky](https://web.stanford.edu/~jurafsky/).
 My Ph.D. is generously supported by a
 [National Science Foundation Graduate Research Fellowship](https://www.nsfgrfp.org/),

@@ -56,17 +56,6 @@
     abstract = "Verbs like <em>make</em>, <em>have</em>, and <em>get</em> present challenges for applications requiring automatic word sense discrimination. These verbs are both highly frequent and polysemous, with semantically “full” readings, as in <em>make dinner</em>, and “light” readings, as in <em>make a request</em>. Lexical resources like WordNet encode dozens of senses, making discrimination difficult and inviting proposals for reducing the number of entries or grouping them into coarser-grained supersenses. We propose a data-driven, linguistically-based approach to establishing a motivated sense inventory, focusing on <em>make</em> to establish a proof of concept. From several large, syntactically annotated corpora, we extract nouns that are complements of the verb <em>make</em>, and group them into clusters based on their Word2Vec semantic vectors. We manually inspect, for each cluster, the words with vectors closest to the centroid as well as a random sample of words within the cluster. The results show that the clusters reflect an intuitively plausible sense discrimination of <em>make</em>. As an evaluation, we test whether words within a given cluster cooccur in coordination phrases, such as <em>apples and oranges</em>, as prior work has shown that such conjoined nouns are semantically related. Conversely, noun complements from different clusters are less likely to be conjoined. Thus, coordination provides a similarity metric independent of the contextual embeddings used for clustering. Our results pave the way for a WordNet sense inventory that, while not inconsistent with the present one, would reduce it significantly and hold promise for improved automatic word sense discrimination."
 }
 
-@article{kallini2025language,
-  title   = {Language models as tools for investigating the distinction between possible and impossible natural languages},
-  author  = {Julie Kallini and Christopher Potts},
-  year    = {2025},
-  month  = {dec},
-  abbr    = {Preprint},
-  journal = {arXiv:2512.09394},
-  arxiv   = {2512.09394},
-  abstract = "We argue that language models (LMs) have strong potential as investigative tools for probing the distinction between possible and impossible natural languages and thus uncovering the inductive biases that support human language learning. We outline a phased research program in which LM architectures are iteratively refined to better discriminate between possible and impossible languages, supporting linking hypotheses to human cognition.",
-}
-
 @inproceedings{kallini-etal-2025-false,
     title = "False {F}riends Are Not Foes: Investigating Vocabulary Overlap in Multilingual Language Models",
     author = "Kallini, Julie  and
@@ -119,6 +108,7 @@
   booktitle = {The Forty-Third International Conference on Machine Learning},
   arxiv     = {2605.08044},
   tweet   = {https://x.com/JulieKallini/status/2053853543552217478},
+  bibtex_show={true},
   abstract = "Recent byte-level language models (LMs) match the performance of token-level models without relying on subword vocabularies, yet their utility is limited by slow, byte-by-byte autoregressive generation. We address this bottleneck in the Byte Latent Transformer (BLT) through new training and generation techniques. First, we introduce BLT Diffusion (BLT-D), a new model and our fastest BLT variant, trained with an auxiliary block-wise diffusion objective alongside the standard next-byte prediction loss. This enables an inference procedure that generates multiple bytes in parallel per decoding step, substantially reducing the number of forward passes required to generate a sequence. Second, we propose two extensions inspired by speculative decoding that trade some of this speed for higher generation quality: BLT Self-speculation (BLT-S), in which BLT's local decoder continues generating past its normal patch boundaries to draft bytes, which are then verified with a single full-model forward pass; and BLT Diffusion+Verification (BLT-DV), which augments BLT-D with an autoregressive verification step after diffusion-based generation. All methods may achieve an estimated memory-bandwidth cost over 50% lower than BLT on generation tasks. Each approach offers its own unique advantages, together removing key barriers to the practical use of byte-level LMs.",
 }
 
@@ -131,7 +121,22 @@
   booktitle = {Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics},
   address = {San Diego, California, United States},
   arxiv   = {2606.20993},
+  bibtex_show={true},
   abstract = "Multilingual language models often exhibit performance disparities across languages that can arise as early as the tokenization stage. Widely-used subword tokenization approaches favor high-resource languages, and tokenizer-free methods still yield longer sequences for scripts with a higher bytes-per-character ratio. To address these shortcomings, we propose to use the International Phonetic Alphabet (IPA) as a language-agnostic input representation for multilingual tokenizers. IPA provides a compact symbol inventory, greater cross-lingual character overlap, and a more balanced byte-per-character distribution across languages. We train matched pairs of text vs. IPA subword tokenizers across 24 languages and 14 scripts and demonstrate that IPA tokenizers consistently improve tokenization quality, especially for non-Latin scripts, and generalize more effectively to unseen languages and scripts.",
+}
+
+@article{Kallini_Potts_2026,
+  title   = {Language models as tools for investigating the distinction between possible and impossible natural languages},
+  volume  = {49},
+  doi     = {10.1017/S0140525X26104737},
+  journal = {Behavioral and Brain Sciences},
+  author  = {Kallini, Julie and Potts, Christopher},
+  year    = {2026},
+  pages   = {e211},
+  abbr    = {BBS},
+  bibtex_show={true},
+  arxiv   = {2512.09394},
+  abstract = "We argue that language models (LMs) have strong potential as investigative tools for probing the distinction between possible and impossible natural languages and thus uncovering the inductive biases that support human language learning. We outline a phased research program in which LM architectures are iteratively refined to better discriminate between possible and impossible languages, supporting linking hypotheses to human cognition.",
 }
 
 @inproceedings{kallini-etal-2024-mission,
