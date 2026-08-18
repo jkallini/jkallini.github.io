@@ -43,5 +43,4 @@ My senior thesis, which explored the language phenomenon of coordination,
 won the Outstanding Senior Thesis Prize. I also received the
 Phillip Goldman ’86 Senior Prize, the CS department's top academic honor.
 
-In my spare time, I teach [Applied Machine Learning](https://uplimit.com/course/applied-machine-learning)
-as an instructor for Uplimit. I also enjoy [acrylic painting](https://juliekallini.com/painting/)! 🎨
+In my spare time, I enjoy [acrylic painting](https://juliekallini.com/painting/)! 🎨
