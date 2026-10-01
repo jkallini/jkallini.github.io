@@ -17,7 +17,7 @@ profile:
 news: true  # includes a list of news items
 talks: true
 press: true
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "_selected={true}"
 social: false  # includes social icons at the bottom of the page
 nav_order: 1
 ---
