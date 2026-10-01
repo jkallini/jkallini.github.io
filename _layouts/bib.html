@@ -29,6 +29,9 @@
           </div>
           <!-- Author -->
           <div class="author">
+            {%- if entry.display_author -%}
+              {{ entry.display_author }}
+            {%- else -%}
             {% assign author_array_size = entry.author_array | size %}
 
             {%- if site.max_author_limit and author_array_size > site.max_author_limit %}
@@ -36,6 +39,7 @@
             {% else %}
               {% assign author_array_limit = author_array_size %}
             {% endif %}
+            {% assign more_authors = author_array_size | minus: author_array_limit %}
             
             {%- for author in entry.author_array limit: author_array_limit -%}
               {%- assign author_is_self = false -%}
@@ -54,9 +58,9 @@
               {%- endif -%}
             
               {%- if forloop.index > 1 %}
-                {%- if author_array_size == 2 -%}
+                {%- if author_array_size == 2 and more_authors == 0 -%}
                 &nbsp;and&nbsp; 
-                {%- elsif forloop.last -%}
+                {%- elsif forloop.last and more_authors == 0 -%}
                   , and&nbsp;
                 {%- else -%}
                   ,&nbsp;
@@ -73,30 +77,35 @@
                 {%- endif -%}
               {%- endif -%}
             
-            {%- endfor %}
-            
-            {% assign more_authors = author_array_size | minus: author_array_limit %}
-            
-          {%- if more_authors > 0 %}
-            {% assign more_authors_hide = more_authors | append: " more author" %}
-            {% if more_authors > 1 %}
-              {% assign more_authors_hide = more_authors_hide | append: "s" %}
-            {% endif %}
-            {% assign more_authors_show = '' %}
-            {%- for author in entry.author_array offset: author_array_limit -%}
-              {% assign more_authors_show = more_authors_show | append: author.last | append: ", " | append: author.first %}
-              {% unless forloop.last %}
-                {% assign more_authors_show = more_authors_show | append: ",&nbsp;" %}
-              {% endunless %}
             {%- endfor -%}
-            and
+
+          {%- if more_authors > 0 -%}
+            {%- assign more_authors_label = more_authors | append: " more author" -%}
+            {%- if more_authors > 1 -%}
+              {%- assign more_authors_label = more_authors_label | append: "s" -%}
+            {%- endif -%}
+            {%- assign more_authors_hide = ", and&nbsp;" | append: more_authors_label -%}
+            {%- assign more_authors_show = '' -%}
+            {%- for author in entry.author_array offset: author_array_limit -%}
+              {%- if forloop.index == 1 -%}
+                {%- assign more_authors_show = more_authors_show | append: ",&nbsp;" -%}
+              {%- elsif forloop.last -%}
+                {%- assign more_authors_show = more_authors_show | append: ", and&nbsp;" -%}
+              {%- else -%}
+                {%- assign more_authors_show = more_authors_show | append: ",&nbsp;" -%}
+              {%- endif -%}
+              {%- assign more_authors_show = more_authors_show | append: author.first | append: " " | append: author.last -%}
+            {%- endfor -%}
             <span
                 class="more-authors"
-                title="click to view {{more_authors_hide}}"
+                title="click to view {{more_authors_label}}"
+                data-expanded="false"
                 onclick="
                   var element = $(this);
                   element.attr('title', '');
-                  var more_authors_text = element.text() == '{{more_authors_hide}}' ? '{{more_authors_show}}' : '{{more_authors_hide}}';
+                  var expanded = element.attr('data-expanded') == 'true';
+                  var more_authors_text = expanded ? '{{more_authors_hide}}' : '{{more_authors_show}}';
+                  element.attr('data-expanded', expanded ? 'false' : 'true');
                   var cursorPosition = 0;
                   var textAdder = setInterval(function(){
                     element.text(more_authors_text.substring(0, cursorPosition + 1));
@@ -107,8 +116,33 @@
                 "
             >{{more_authors_hide}}</span>
           {% endif %}
+            {%- endif -%}
 
           </div>
+          {%- if entry.contribution_title and entry.contribution_authors %}
+          <div class="contribution">
+            <span class="contribution-title">{{ entry.contribution_title }}</span>
+            <span class="contribution-authors">
+              {%- assign contribution_authors = entry.contribution_authors | split: " and " -%}
+              {%- for contribution_author in contribution_authors -%}
+                {%- if forloop.index > 1 -%}
+                  {%- if contribution_authors.size == 2 -%}
+                    &nbsp;and&nbsp;
+                  {%- elsif forloop.last -%}
+                    , and&nbsp;
+                  {%- else -%}
+                    ,&nbsp;
+                  {%- endif -%}
+                {%- endif -%}
+                {%- if contribution_author == "Julie Kallini" -%}
+                  <strong>{{ contribution_author }}</strong>
+                {%- else -%}
+                  {{ contribution_author }}
+                {%- endif -%}
+              {%- endfor -%}
+            </span>
+          </div>
+          {%- endif %}
 
           <!-- Journal/Book title and date -->
           {% if entry.type == "article" -%}

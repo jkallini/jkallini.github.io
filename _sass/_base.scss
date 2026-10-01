@@ -634,6 +634,33 @@ footer.sticky-bottom {
         }
       }
 
+      .contribution {
+        margin-top: 0.35rem;
+        padding-left: 0.75rem;
+        border-left: 3px solid var(--global-theme-color);
+        color: var(--global-text-color-light);
+        font-size: 0.9rem;
+        line-height: 1.45;
+
+        .contribution-title {
+          color: var(--global-text-color);
+          font-weight: 600;
+
+          &::after {
+            content: " ";
+          }
+        }
+
+        .contribution-authors {
+          display: block;
+          margin-top: 0.1rem;
+
+          strong {
+            color: var(--global-text-color);
+          }
+        }
+      }
+
       .links {
         a.btn {
           color: var(--global-text-color);
