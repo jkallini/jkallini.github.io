@@ -240,6 +240,8 @@ scholar:
   # preprocessing may conflict with MathJAX if the latter is enabled.
   # See https://github.com/alshedivat/al-folio/issues/357.
   bibtex_filters: [latex, smallcaps, superscript]
+  # Keep all citation fields (including abstract); hide site-only fields below.
+  bibtex_skip_fields: []
 
   replace_strings: true
   join_strings: true

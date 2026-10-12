@@ -7,7 +7,8 @@
       {%- assign display_arxiv = entry._arxiv -%}
       {%- assign display_pdf = entry._pdf -%}
       {%- assign display_url = entry._url | default: entry.url -%}
-      {%- assign display_abstract = entry._abstract -%}
+      {%- assign display_abstract = entry._abstract | default: entry.abstract -%}
+      {%- assign display_month = entry._month | default: entry.month -%}
       {%- assign show_bibtex = entry._bibtex_show -%}
       {%- assign display_html = entry._html -%}
       {%- assign display_supp = entry._supp -%}
@@ -59,6 +60,7 @@
             {% assign more_authors = author_array_size | minus: author_array_limit %}
             
             {%- for author in entry.author_array limit: author_array_limit -%}
+              {%- assign author_last = author.prefix | append: " " | append: author.last | strip -%}
               {%- assign author_is_self = false -%}
               {%- if author.last == site.scholar.last_name and site.scholar.first_name contains author.first -%}
                 {%- assign author_is_self = true -%}
@@ -85,12 +87,12 @@
               {%- endif -%}
             
               {%- if author_is_self -%}
-                <strong>{{author.first}} {{author.last}}</strong>
+                <strong>{{author.first}} {{author_last}}</strong>
               {%- else %}
                 {%- if coauthor_url -%}
-                  <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+                  <a href="{{coauthor_url}}">{{author.first}} {{author_last}}</a>
                 {%- else -%}
-                  {{author.first}} {{author.last}}
+                  {{author.first}} {{author_last}}
                 {%- endif -%}
               {%- endif -%}
             
@@ -104,6 +106,7 @@
             {%- assign more_authors_hide = ", and&nbsp;" | append: more_authors_label -%}
             {%- assign more_authors_show = '' -%}
             {%- for author in entry.author_array offset: author_array_limit -%}
+              {%- assign author_last = author.prefix | append: " " | append: author.last | strip -%}
               {%- if forloop.index == 1 -%}
                 {%- assign more_authors_show = more_authors_show | append: ",&nbsp;" -%}
               {%- elsif forloop.last -%}
@@ -111,7 +114,7 @@
               {%- else -%}
                 {%- assign more_authors_show = more_authors_show | append: ",&nbsp;" -%}
               {%- endif -%}
-              {%- assign more_authors_show = more_authors_show | append: author.first | append: " " | append: author.last -%}
+              {%- assign more_authors_show = more_authors_show | append: author.first | append: " " | append: author_last -%}
             {%- endfor -%}
             <span
                 class="more-authors"
@@ -169,8 +172,9 @@
           {%- else -%}
             {%- capture entrytype -%}{%- endcapture -%}
           {%- endif -%}
-          {%- if entry.month -%}
-            {%- capture entrymonth -%}{{ " " }}{{ entry.month | capitalize }}{%- endcapture -%}
+          {%- assign entrymonth = '' -%}
+          {%- if display_month -%}
+            {%- capture entrymonth -%}{{ " " }}{{ display_month | capitalize }}{%- endcapture -%}
           {%- endif -%}
           {%- if entry.year -%}
             {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
